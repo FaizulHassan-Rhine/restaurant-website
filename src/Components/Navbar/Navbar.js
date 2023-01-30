@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 
 const Navbar = () => {
@@ -28,17 +29,17 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link to="/home">Home</Link>
               </li>
 
               <li>
-                <a>Menu</a>
+                <Link to="/menu">Menu</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <a>Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
@@ -47,19 +48,19 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 mr-4">
             <li>
-              <a>Home</a>
+              <Link to="/home">Home</Link>
             </li>
 
             <li>
-              <a>Menu</a>
+              <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <a>Blog</a>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
