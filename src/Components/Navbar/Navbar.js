@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-white h-20 px-10">
+      <div className="navbar bg-white h-28 px-10">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -41,14 +41,17 @@ const Navbar = () => {
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
+              <li>
+                <Link to="/about">About us</Link>
+              </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case h-20 w-32">
-            <img className="h-16 w-16 " src={logo} alt="" />
+          <a className="btn btn-ghost normal-case h-24 w-32">
+            <img className="h-24 w-20 " src={logo} alt="" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 mr-4">
+          <ul className="menu menu-horizontal px-1">
             <li>
               <Link to="/home">Home</Link>
             </li>
@@ -61,6 +64,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link to="/about">About us</Link>
             </li>
           </ul>
         </div>
