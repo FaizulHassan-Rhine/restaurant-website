@@ -1,6 +1,6 @@
 import React from "react";
 import bannerPhoto from "../../images/h_b2-.png";
-import Contact from "./Contact/Contact";
+import Feedback from "./Feedback/Feedback";
 import Menu from "./Menu/Menu";
 import PriceBoard from "./PriceBoard/PriceBoard";
 import Reviews from "./Reviews/Reviews";
@@ -35,7 +35,7 @@ const Home = () => {
       <Welcome></Welcome>
       <PriceBoard></PriceBoard>
       <Reviews></Reviews>
-      <Contact></Contact>
+      <Feedback></Feedback>
     </div>
   );
 };

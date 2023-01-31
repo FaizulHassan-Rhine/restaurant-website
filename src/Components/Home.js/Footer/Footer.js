@@ -3,7 +3,7 @@ import logo from "../../../images/logo.png";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <footer className="footer p-10 bg-gray-200 text-base-content grid lg:grid-cols-4">
         <div>
           <figure>
