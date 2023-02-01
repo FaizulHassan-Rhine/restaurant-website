@@ -1,11 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-// import Header from "./Components/Header/Header";
 import Blog from "./Components/Blog/Blog";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home.js/Home";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import Footer from "./Components/Home.js/Footer/Footer";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
@@ -15,9 +13,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
-        {/* <Route path="/about" element={<AboutUs />} /> */}
+        <Route path="/cart" element={<Cart />} />
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }

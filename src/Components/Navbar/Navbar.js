@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
+import { HiShoppingCart } from "react-icons/hi";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-white h-28 px-10">
+      <div className="navbar  bg-white h-28 px-10">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,7 +34,7 @@ const Navbar = () => {
               </li>
 
               <li>
-                <Link to="/menu">Menu</Link>
+                <Link to="/menu"></Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
             <img className="h-24 w-20 " src={logo} alt="" />
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center  hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link to="/home">Home</Link>
@@ -71,6 +72,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <Link to="/cart">
+            <HiShoppingCart className="mr-2 w-6 h-6" />
+          </Link>
+
           <button>Sign in</button>
         </div>
       </div>

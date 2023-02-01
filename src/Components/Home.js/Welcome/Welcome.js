@@ -5,8 +5,8 @@ import service from "../../../images/f_service.png";
 
 const Welcome = () => {
   return (
-    <div>
-      <h2 className="text-center text-3xl my-5">
+    <div className="my-32">
+      <h2 className="text-center text-3xl  mb-20">
         Welcome to <span className="font-bold text-orange-400">Fry Frenzy</span>
       </h2>
       <div className=" grid lg:grid-cols-3 mx-10">

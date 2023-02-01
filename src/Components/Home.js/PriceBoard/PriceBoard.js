@@ -9,71 +9,137 @@ const PriceBoard = () => {
       </h2>
       <div id="price-menu" className="mt-10 ">
         <div className="grid lg:grid-cols-2 lg:ml-20 ">
-          <div className="card w-60  ml-60 mt-16">
+          <div className="card w-96   ml-56 mt-40">
             <div className="card-body ">
-              <h2 className=" font-bold text-white text-xl">Combo Package</h2>
-              <p>
-                Frenzy's Combo <span>$80</span>
+              <h2 className=" font-extrabold text-white text-3xl">
+                COMBO PACKAGE
+              </h2>
+              <p className="font-bold text-lg ">
+                Frenzy's Combo --------- <span>$80</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Family Combo <span>$120</span>
+              <p className="font-bold text-lg ">
+                Family Combo ----------- <span>$120</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Couple Combo <span>$50</span>
+              <p className="font-bold text-lg ">
+                Couple Combo ----------- <span>$50</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Kids Combo <span>$60</span>
+              <p className="font-bold text-lg ">
+                Kids Combo --------------- <span>$60</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
             </div>
           </div>
-          <div className="card w-60  ml-10 mt-16">
+          <div className="card w-96  ml-20 mt-40">
             <div className="card-body ">
-              <h2 className=" font-bold text-white text-xl">Combo Package</h2>
-              <p>
-                Frenzy's Combo <span>$80</span>
+              <h2 className=" font-extrabold text-white text-3xl">SNACKS</h2>
+              <p className="font-bold text-lg ">
+                Chicken Fry ------------- <span>$20</span>
+                <br />
+                <p className="text-xs font-normal text-white ">Regular,Naga</p>
               </p>
-              <p>
-                Family Combo <span>$120</span>
+              <p className="font-bold text-lg ">
+                Chicken Wings --------- <span>$15</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Garlic,Naga,Crispy
+                </p>
               </p>
-              <p>
-                Couple Combo <span>$50</span>
+              <p className="font-bold text-lg ">
+                Chicken Lollypop ----- <span>$12</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Regular,Garlic,Sweet,Naga
+                </p>
               </p>
-              <p>
-                Kids Combo <span>$60</span>
+              <p className="font-bold text-lg ">
+                Fries ------------------------- <span>$10</span>
+                <br />
+                <p className="text-xs font-normal text-white ">Small,Large</p>
               </p>
             </div>
           </div>
-          <div className="card w-60  ml-60 mt-36">
+          <div className="card w-96  ml-60 mt-52">
             <div className="card-body ">
-              <h2 className=" font-bold text-white text-xl">Combo Package</h2>
-              <p>
-                Frenzy's Combo <span>$80</span>
+              <h2 className=" font-extrabold text-white text-3xl">
+                Combo Package
+              </h2>
+              <p className="font-bold text-lg ">
+                Frenzy's Combo --------- <span>$80</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Family Combo <span>$120</span>
+              <p className="font-bold text-lg ">
+                Family Combo ----------- <span>$120</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Couple Combo <span>$50</span>
+              <p className="font-bold text-lg ">
+                Couple Combo ----------- <span>$50</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Kids Combo <span>$60</span>
+              <p className="font-bold text-lg ">
+                Kids Combo --------------- <span>$60</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
             </div>
           </div>
-          <div className="card w-60  ml-10 mt-36">
+          <div className="card w-96  ml-20 mt-52">
             <div className="card-body ">
-              <h2 className=" font-bold text-white text-xl">Combo Package</h2>
-              <p>
-                Frenzy's Combo <span>$80</span>
+              <h2 className=" font-extrabold text-white text-3xl">
+                Combo Package
+              </h2>
+              <p className="font-bold text-lg ">
+                Frenzy's Combo --------- <span>$80</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Family Combo <span>$120</span>
+              <p className="font-bold text-lg ">
+                Family Combo ----------- <span>$120</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Couple Combo <span>$50</span>
+              <p className="font-bold text-lg ">
+                Couple Combo ----------- <span>$50</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
-              <p>
-                Kids Combo <span>$60</span>
+              <p className="font-bold text-lg ">
+                Kids Combo --------------- <span>$60</span>
+                <br />
+                <p className="text-xs font-normal text-white ">
+                  Chicken Nuggets,Fries,Wings
+                </p>
               </p>
             </div>
           </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import bannerPhoto from "../../images/h_b2-.png";
+import Navbar from "../Navbar/Navbar";
 import Feedback from "./Feedback/Feedback";
-import Menu from "./Menu/Menu";
+import Footer from "./Footer/Footer";
+import Menus from "./Menus/Menus";
 import PriceBoard from "./PriceBoard/PriceBoard";
 import Reviews from "./Reviews/Reviews";
 import Welcome from "./Welcome/Welcome";
@@ -31,11 +33,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Menu></Menu>
       <Welcome></Welcome>
+      <Menus></Menus>
       <PriceBoard></PriceBoard>
       <Reviews></Reviews>
       <Feedback></Feedback>
+      <Footer></Footer>
     </div>
   );
 };
