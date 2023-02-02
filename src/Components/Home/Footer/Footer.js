@@ -42,10 +42,10 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-base-200 text-center border-base-300">
+      <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center  border-base-300">
         <div className="items-center grid-flow-col">
           <p className="text-center">
-            Fry Frenzy <br />
+            <span className="text-orange-400">Fry Frenzy</span> <br />
             Providing Delicious Food since 2023
           </p>
         </div>

@@ -19,6 +19,7 @@ const Blog = () => {
                     <img
                       class="w-full"
                       src="https://c.ndtvimg.com/2021-06/pqpb282_pizza_625x300_13_June_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+                      alt=""
                     />
                     <div class="px-4 py-2">
                       <h1 class="text-lg font-gray-700 font-bold">
@@ -36,7 +37,7 @@ const Blog = () => {
                         experiments sound appetising, other experiments are
                         simply disastrous. Recently
                       </p>
-                      <button class="mt-4 w-full text-center bg-orange-400 py-2 rounded-lg">
+                      <button class="mt-4 w-full text-center hover:bg-lime-400 bg-orange-400 py-2 rounded-lg">
                         <a
                           href="https://food.ndtv.com/food-drinks/food-blogger-eats-pizza-with-pudina-chutney-internet-reacts-2600230"
                           target="_blank"
@@ -75,7 +76,7 @@ const Blog = () => {
                         the sure to leave you full and happy. It goes without
                         saying that these chicken dishes are also some of the
                       </p>
-                      <button class="mt-4 w-full text-center bg-orange-400 py-2 rounded-lg">
+                      <button class="mt-4 w-full text-center hover:bg-lime-400 bg-orange-400 py-2 rounded-lg">
                         <a
                           href="https://food.ndtv.com/food-drinks/bhuna-chicken-wings-recipe-make-these-tantalising-chicken-wings-with-a-desi-twist-2663475"
                           target="_blank"
@@ -115,7 +116,7 @@ const Blog = () => {
                         non-vegetarian's heart. And when it is about fried
                         chicken, can we
                       </p>
-                      <button class="mt-4 w-full text-center bg-orange-400 py-2 rounded-lg">
+                      <button class="mt-4 w-full text-center hover:bg-lime-400 bg-orange-400 py-2 rounded-lg">
                         <a
                           href="https://food.ndtv.com/lists/5-best-fried-chicken-recipes-2042477"
                           target="_blank"

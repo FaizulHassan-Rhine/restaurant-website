@@ -17,28 +17,28 @@ const PriceBoard = () => {
               <p className="font-bold text-lg ">
                 Frenzy's Combo --------- <span>$80</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Family Combo ----------- <span>$120</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Couple Combo ----------- <span>$50</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Kids Combo --------------- <span>$60</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
@@ -50,26 +50,24 @@ const PriceBoard = () => {
               <p className="font-bold text-lg ">
                 Chicken Fry ------------- <span>$20</span>
                 <br />
-                <p className="text-xs font-normal text-white ">Regular,Naga</p>
+                <p className="text-xs font-normal ">Regular,Naga</p>
               </p>
               <p className="font-bold text-lg ">
                 Chicken Wings --------- <span>$15</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
-                  Garlic,Naga,Crispy
-                </p>
+                <p className="text-xs font-normal  ">Garlic,Naga,Crispy</p>
               </p>
               <p className="font-bold text-lg ">
                 Chicken Lollypop ----- <span>$12</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Regular,Garlic,Sweet,Naga
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Fries ------------------------- <span>$10</span>
                 <br />
-                <p className="text-xs font-normal text-white ">Small,Large</p>
+                <p className="text-xs font-normal  ">Small,Large</p>
               </p>
             </div>
           </div>
@@ -81,28 +79,28 @@ const PriceBoard = () => {
               <p className="font-bold text-lg ">
                 Frenzy's Combo --------- <span>$80</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Family Combo ----------- <span>$120</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Couple Combo ----------- <span>$50</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Kids Combo --------------- <span>$60</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
@@ -116,28 +114,28 @@ const PriceBoard = () => {
               <p className="font-bold text-lg ">
                 Frenzy's Combo --------- <span>$80</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Family Combo ----------- <span>$120</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Couple Combo ----------- <span>$50</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
               <p className="font-bold text-lg ">
                 Kids Combo --------------- <span>$60</span>
                 <br />
-                <p className="text-xs font-normal text-white ">
+                <p className="text-xs font-normal  ">
                   Chicken Nuggets,Fries,Wings
                 </p>
               </p>
