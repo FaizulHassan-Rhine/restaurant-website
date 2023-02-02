@@ -9,7 +9,7 @@ const Welcome = () => {
       <h2 className="text-center text-3xl  mb-20">
         Welcome to <span className="font-bold text-orange-400">Fry Frenzy</span>
       </h2>
-      <div className=" grid lg:grid-cols-3 mx-10">
+      <div className=" grid md:grid md:grid-cols-2 lg:grid-cols-3 mx-10">
         <div className="card card-compact w-96 bg-base-100 ">
           <figure>
             <img className="h-36 w-36 ml-2 " src={food} alt="" />

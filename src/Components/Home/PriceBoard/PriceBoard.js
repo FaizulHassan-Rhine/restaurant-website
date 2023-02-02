@@ -3,13 +3,13 @@ import "./Price.css";
 
 const PriceBoard = () => {
   return (
-    <div className="mt-20">
+    <div id="priceMenu" className="mt-20">
       <h2 className="text-center text-3xl mb-6 pt-6 ml-2">
         <span className="font-bold text-orange-400">Frenzy's</span> Menu{" "}
       </h2>
       <div id="price-menu" className="mt-10 ">
-        <div className="grid lg:grid-cols-2 lg:ml-20 ">
-          <div className="card w-96   ml-56 mt-40">
+        <div className="lg:grid lg:grid-cols-2 lg:ml-20 ">
+          <div className="card w-96   lg:ml-56 lg:mt-40">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">
                 COMBO PACKAGE
@@ -44,7 +44,7 @@ const PriceBoard = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96  ml-20 mt-40">
+          <div className="card w-96  lg:ml-20 lg:mt-40">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">SNACKS</h2>
               <p className="font-bold text-lg ">
@@ -73,7 +73,7 @@ const PriceBoard = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96  ml-60 mt-52">
+          <div className="card w-96  lg:ml-60 lg:mt-52">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">
                 Combo Package
@@ -108,7 +108,7 @@ const PriceBoard = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96  ml-20 mt-52">
+          <div className="card w-96  lg:ml-20 lg:mt-52">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">
                 Combo Package

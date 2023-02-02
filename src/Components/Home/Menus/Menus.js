@@ -15,7 +15,7 @@ const Menus = () => {
         {" "}
         Our Best Seller
       </h2>
-      <div className="grid lg:grid-cols-4 mx-5 justify-items-center gap-y-20 ">
+      <div className="grid md:grid md:grid-cols-3 lg:grid-cols-4 mx-5 justify-items-center gap-y-20 ">
         {menus.map((menu) => (
           <Menu key={menu.id} menu={menu}></Menu>
         ))}

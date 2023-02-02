@@ -1,7 +1,8 @@
 import React from "react";
 import bannerPhoto from "../../images/h_b2-.png";
-import Navbar from "../Navbar/Navbar";
-import Feedback from "./Feedback/Feedback";
+import Blog from "../Blog/Blog";
+// import Navbar from "../Navbar/Navbar";
+
 import Footer from "./Footer/Footer";
 import Menus from "./Menus/Menus";
 import PriceBoard from "./PriceBoard/PriceBoard";
@@ -12,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div className="px-16">
-        <div className="grid grid-cols-2">
+        <div className="lg:grid grid-cols-2">
           <div className="mt-24 ">
             <h2 className="text-6xl font-bold text-orange-400">
               Naga Grilled Chicken
@@ -33,11 +34,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <Welcome></Welcome>
       <Menus></Menus>
       <PriceBoard></PriceBoard>
       <Reviews></Reviews>
-      <Feedback></Feedback>
+      <Blog></Blog>
       <Footer></Footer>
     </div>
   );

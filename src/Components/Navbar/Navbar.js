@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HiShoppingCart } from "react-icons/hi";
 
 const Navbar = () => {
@@ -34,16 +35,17 @@ const Navbar = () => {
               </li>
 
               <li>
-                <Link to="/menu"></Link>
+                <AnchorLink href="#priceMenu">
+                  <button>Menu</button>
+                </AnchorLink>
               </li>
+              <AnchorLink href="#contact">
+                <button>Contact</button>
+              </AnchorLink>
               <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-              <li>
-                <Link to="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link to="/about">About us</Link>
+                <AnchorLink href="#blog">
+                  <button>Blog</button>
+                </AnchorLink>
               </li>
             </ul>
           </div>
@@ -58,16 +60,19 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link to="/menu">Menu</Link>
+              <AnchorLink href="#priceMenu">
+                <button>Menu</button>
+              </AnchorLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <AnchorLink href="#contact">
+                <button>Contact</button>
+              </AnchorLink>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/about">About us</Link>
+              <AnchorLink href="#blog">
+                <button>Blog</button>
+              </AnchorLink>
             </li>
           </ul>
         </div>

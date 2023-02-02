@@ -4,7 +4,7 @@ import logo from "../../../images/logo.png";
 const Footer = () => {
   return (
     <div id="contact">
-      <footer className="footer p-10 bg-gray-200 text-base-content grid lg:grid-cols-4">
+      <footer className="footer p-10 bg-black text-white grid lg:grid-cols-4">
         <div>
           <figure>
             <img className="h-20 w-20 -mt-1 ml-12" src={logo} alt="" />
@@ -17,7 +17,9 @@ const Footer = () => {
           <p>Fry Frenzy</p>
         </div>
         <div>
-          <span className="footer-title text-orange-400">Openig hours</span>
+          <span className="text-lg font-bold text-orange-400">
+            Openig hours
+          </span>
           <p>Mon.........................9:00 -- 23:00</p>
           <p>Tue............................9:00 -- 23:00</p>
           <p>Wed.........................9:00 -- 23:00</p>
@@ -27,22 +29,22 @@ const Footer = () => {
           <p>Sun...........................Close</p>
         </div>
         <div>
-          <span className="footer-title text-orange-400 ">Company</span>
+          <span className="text-lg font-bold text-orange-400 ">Company</span>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Blog</a>
           <a className="link link-hover">Press kit</a>
         </div>
         <div>
-          <span className="footer-title">Legal</span>
+          <span className="text-lg font-bold text-orange-400">Legal</span>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+      <footer className="footer px-10 py-4 border-t bg-base-200 text-center border-base-300">
         <div className="items-center grid-flow-col">
-          <p>
+          <p className="text-center">
             Fry Frenzy <br />
             Providing Delicious Food since 2023
           </p>
