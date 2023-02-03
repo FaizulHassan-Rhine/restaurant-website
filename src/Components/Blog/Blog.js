@@ -3,8 +3,6 @@ import React from "react";
 const Blog = () => {
   return (
     <div id="blog" className="my-20">
-      {/* <!-- component --> */}
-      {/* <!-- Create By Joker Banny --> */}
       <div class="mt-5 flex justify-center items-center ">
         <div class="container mx-auto px-12 rounded-xl">
           <h1 class="text-4xl uppercase text-center font-bold mb-10 from-current ">
@@ -17,7 +15,7 @@ const Blog = () => {
                 <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
                   <div>
                     <img
-                      class="w-full"
+                      class="w-full rounded-md"
                       src="https://c.ndtvimg.com/2021-06/pqpb282_pizza_625x300_13_June_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
                       alt=""
                     />
@@ -57,7 +55,7 @@ const Blog = () => {
                 <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
                   <div>
                     <img
-                      class="w-full"
+                      class="w-full rounded-md"
                       src="https://c.ndtvimg.com/2019-04/nb4agmks_chicken-wings-generic_625x300_26_April_19.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350"
                       alt=""
                     />
@@ -96,7 +94,7 @@ const Blog = () => {
                 <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
                   <div>
                     <img
-                      class="w-full"
+                      class="w-full rounded-md"
                       src="https://c.ndtvimg.com/2019-05/usn4dnv_fried-chicken_625x300_24_May_19.jpg"
                       alt=""
                     />

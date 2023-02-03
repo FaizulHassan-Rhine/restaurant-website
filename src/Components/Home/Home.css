@@ -1,0 +1,11 @@
+.img-size {
+  width: 560px;
+  height: 360px;
+}
+
+@media only screen and (max-width: 639px) {
+  .img-size {
+    width: 400px;
+    height: 220px;
+  }
+}

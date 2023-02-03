@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../../../images/logo.png";
+import logo from "../../images/logo.png";
 
 const Footer = () => {
   return (
     <div id="contact">
-      <footer className="footer p-10 bg-black text-white grid lg:grid-cols-4">
+      <footer className="footer justify-items-center p-10 bg-black text-white grid lg:grid-cols-4">
         <div>
           <figure>
             <img className="h-20 w-20 -mt-1 ml-12" src={logo} alt="" />
@@ -42,7 +42,7 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center  border-base-300">
+      <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center ">
         <div className="items-center grid-flow-col">
           <p className="text-center">
             <span className="text-orange-400">Fry Frenzy</span> <br />

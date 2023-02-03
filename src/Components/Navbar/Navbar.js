@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HiShoppingCart } from "react-icons/hi";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar  bg-white h-28 px-10">
+    <div className="">
+      <div className="navbar bg-white h-28 px-10">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,11 +50,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case h-24 w-32">
-            <img className="h-24 w-20 " src={logo} alt="" />
+          <a href="/">
+            <button className=" h-24 w-32">
+              <img className="h-24 w-20 ml-5" src={logo} alt="" />
+            </button>
           </a>
         </div>
-        <div className="navbar-center  hidden lg:flex">
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link to="/home">Home</Link>
@@ -78,7 +81,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <Link to="/cart">
-            <HiShoppingCart className="mr-2 w-6 h-6" />
+            <HiShoppingCart className="mr-2 w-6 h-6 hover:text-lime-400" />
           </Link>
 
           <button className="bg-orange-400 hover:bg-lime-400 px-2 py-1 rounded-md text-white font-medium">

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Cart from "../../Cart/Cart";
 
 const Menu = ({ menu }) => {
   const { name, img, price } = menu;
@@ -29,12 +28,12 @@ const Menu = ({ menu }) => {
     <div>
       <div className="card card-compact w-60   bg-base-100 shadow-xl">
         <figure>
-          <img className="h-48 w-60" src={img} alt="Shoes" />
+          <img className="h-48 w-52  rounded-md" src={img} alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold">{name}</h2>
-          <p>${price}</p>
-          <div className="card-actions justify-end">
+          <p className="text-lg font-bold text-red-700">${price}</p>
+          <div className="card-actions justify-center">
             <button
               onClick={() => HandleAddMenu(menu)}
               className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"

@@ -4,11 +4,11 @@ import "./Price.css";
 const PriceBoard = () => {
   return (
     <div id="priceMenu" className="mt-20">
-      <h2 className="text-center text-3xl mb-6 pt-6 ml-2">
+      <h2 className="text-center text-4xl mb-6 pt-6 ml-2">
         <span className="font-bold text-orange-400">Frenzy's</span> Menu{" "}
       </h2>
       <div id="price-menu" className="mt-10 ">
-        <div className="lg:grid lg:grid-cols-2 lg:ml-20 ">
+        <div className="lg:grid lg:grid-cols-2 justify-items-center  ">
           <div className="card w-96   lg:ml-56 lg:mt-40">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">
@@ -71,38 +71,30 @@ const PriceBoard = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96  lg:ml-60 lg:mt-52">
+          <div className="card w-96  lg:ml-56 lg:mt-52">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-3xl">
-                Combo Package
+                FRENZY SPECIAL
               </h2>
               <p className="font-bold text-lg ">
-                Frenzy's Combo --------- <span>$80</span>
+                Chicken Burger --------- <span>$50</span>
                 <br />
-                <p className="text-xs font-normal  ">
-                  Chicken Nuggets,Fries,Wings
-                </p>
+                <p className="text-xs font-normal  ">Extra Spicy/Cheese</p>
               </p>
               <p className="font-bold text-lg ">
-                Family Combo ----------- <span>$120</span>
+                Chicken Sausage ------ <span>$30</span>
                 <br />
-                <p className="text-xs font-normal  ">
-                  Chicken Nuggets,Fries,Wings
-                </p>
+                <p className="text-xs font-normal  ">Small/Medium/Large</p>
               </p>
               <p className="font-bold text-lg ">
-                Couple Combo ----------- <span>$50</span>
+                Chicken Kabab --------- <span>$30</span>
                 <br />
-                <p className="text-xs font-normal  ">
-                  Chicken Nuggets,Fries,Wings
-                </p>
+                <p className="text-xs font-normal  ">Extra Spicy</p>
               </p>
               <p className="font-bold text-lg ">
-                Kids Combo --------------- <span>$60</span>
+                Chiken Shawarma ----- <span>$60</span>
                 <br />
-                <p className="text-xs font-normal  ">
-                  Chicken Nuggets,Fries,Wings
-                </p>
+                <p className="text-xs font-normal  ">Small/Medium/Large</p>
               </p>
             </div>
           </div>

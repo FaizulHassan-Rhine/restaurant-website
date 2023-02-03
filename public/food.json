@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Thomas Muller",
+    "review": "Very good service, good menu … not overly extensive. Food was very good quality all around.",
+    "location": "Germany",
+    "img": "https://i.pinimg.com/236x/2d/b3/af/2db3af40b4c35e0abe99e8e612a537d5--thomas-muller-do-what.jpg"
+  },
+  {
+    "name": "Lionel Messi",
+    "review": "The food is excellent, generous portions and great prices. The service was fast and friendly. I highly recommended it",
+    "location": "Argentina",
+    "img": "https://i.pinimg.com/550x/5f/43/fa/5f43faab7bdf4e215c72a8c842902c5a.jpg"
+  },
+  {
+    "name": "Shakib Al Hassan",
+    "review": "Great selection! My go to favorite is the Chicken Shawarma. We also love their Chicken Fry. ",
+    "location": "Bangladesh",
+    "img": "http://www.observerbd.com/2015/03/01/1425222919.jpg"
+  }
+]
