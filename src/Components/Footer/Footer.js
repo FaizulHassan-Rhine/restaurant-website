@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 const Footer = () => {
   return (
     <div id="contact">
-      <footer className="footer justify-items-center p-10 bg-black text-white grid lg:grid-cols-4">
+      <footer className="footer lg:justify-items-center p-10 bg-black text-white grid lg:grid-cols-4">
         <div>
           <figure>
             <img className="h-20 w-20 -mt-1 ml-12" src={logo} alt="" />

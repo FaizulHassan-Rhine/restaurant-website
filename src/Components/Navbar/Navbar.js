@@ -36,7 +36,7 @@ const Navbar = () => {
               </li>
 
               <li>
-                <AnchorLink href="#priceMenu">
+                <AnchorLink href="#price-menu">
                   <button>Menu</button>
                 </AnchorLink>
               </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <AnchorLink href="#priceMenu">
+              <AnchorLink href="#price-menu">
                 <button>Menu</button>
               </AnchorLink>
             </li>

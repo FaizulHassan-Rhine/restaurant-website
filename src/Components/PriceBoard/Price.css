@@ -1,12 +1,5 @@
 #price-menu {
-  background-image: url(../../images/menu3.png);
+  background-image: url(../../images/b4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media only screen and (max-width: 639px) {
-  #price-menu {
-    background-image: none;
-    background-color: rgb(237, 162, 22);
-  }
 }
