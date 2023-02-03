@@ -1,5 +1,11 @@
 import React from "react";
 import logo from "../../images/logo.png";
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaInstagramSquare,
+  FaTwitterSquare,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,6 +21,20 @@ const Footer = () => {
           </p>
           <p>2nd Floor, Navana DH Tower, Plot:06, Panthapath, Dhaka 1215</p>
           <p>Fry Frenzy</p>
+          <div className="flex text-orange-400 gap-1">
+            <a className="link link-hover">
+              <FaFacebookSquare className="h-6 w-6" />
+            </a>
+            <a className="link link-hover">
+              <FaLinkedin className="h-6 w-6" />
+            </a>
+            <a className="link link-hover">
+              <FaInstagramSquare className="h-6 w-6" />
+            </a>
+            <a className="link link-hover">
+              <FaTwitterSquare className="h-6 w-6" />
+            </a>
+          </div>
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400">

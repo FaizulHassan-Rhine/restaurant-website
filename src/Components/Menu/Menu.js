@@ -26,9 +26,9 @@ const Menu = ({ menu }) => {
 
   return (
     <div>
-      <div className="card card-compact w-60   bg-base-100 shadow-xl">
+      <div className="card card-compact w-60 hover:shadow-xl transform transition duration-500 hover:scale-105 bg-base-100 shadow-xl">
         <figure>
-          <img className="h-48 w-52  rounded-md" src={img} alt="Shoes" />
+          <img className="h-48 w-52  rounded-md" src={img} alt="" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold">{name}</h2>
