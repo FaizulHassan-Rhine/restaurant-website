@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="sticky-navbar">
       <div className="navbar bg-white h-28 px-10">
         <div className="navbar-start">
           <div className="dropdown">

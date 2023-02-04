@@ -4,10 +4,10 @@ import "./Price.css";
 const PriceBoard = () => {
   return (
     <div id="price-menu" className="mt-32 mb-32  ">
-      <h2 className="text-center text-4xl pt-20 ">
-        <span className="font-bold  text-white">Frenzy's</span> Menu{" "}
+      <h2 className="text-center text-4xl pt-40 ">
+        <span className="font-bold   text-white">Frenzy's</span> Menu{" "}
       </h2>
-      <div className="lg:grid lg:grid-cols-2 justify-items-center  ">
+      <div className="md:grid md:grid-cols-2 lg:grid lg:grid-cols-2  justify-items-center  ">
         <div className="card w-96   lg:ml-56 lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">

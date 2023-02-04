@@ -53,13 +53,14 @@ const Footer = () => {
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Blog</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover">Location</a>
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400">Legal</span>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
+          <a className="link link-hover">Data Managementnpm </a>
         </div>
       </footer>
       <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center ">

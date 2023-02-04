@@ -1,27 +1,38 @@
 import React, { useState } from "react";
 
 const Menu = ({ menu }) => {
-  const { name, img, price } = menu;
+  const { id, name, img, price } = menu;
 
-  const [cartItems, setCartItems] = useState([]);
+  const [cartCount, setCartCount] = useState(0);
 
-  const HandleAddMenu = (menu) => {
-    console.log("add", menu);
-    const MenuExist = cartItems.find((item) => item.id === menu.id);
-    if (MenuExist) {
-      setCartItems(
-        cartItems.map((item) =>
-          item.id === menu.id
-            ? {
-                ...MenuExist,
-                quantity: MenuExist.quantity + 1,
-              }
-            : item
-        )
+  const handleAddMenu = (menu) => {
+    let cartItems = JSON.parse(sessionStorage.getItem("cartItems")) || [];
+    let menuExist = cartItems.find((item) => item.id === menu.id);
+
+    if (menuExist) {
+      cartItems = cartItems.map((item) =>
+        item.id === menu.id
+          ? {
+              ...item,
+              quantity: item.quantity + 1,
+              countPrice: item.price * (item.quantity + 1),
+            }
+          : item
       );
     } else {
-      setCartItems([...cartItems, { ...menu, quantity: 1 }]);
+      cartItems = [
+        ...cartItems,
+        {
+          ...menu,
+          quantity: 1,
+          countPrice: menu.price,
+          totalPrice: menu.price,
+        },
+      ];
     }
+
+    sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
+    setCartCount(cartCount + 1);
   };
 
   return (
@@ -35,7 +46,7 @@ const Menu = ({ menu }) => {
           <p className="text-lg font-bold text-red-700">${price}</p>
           <div className="card-actions justify-center">
             <button
-              onClick={() => HandleAddMenu(menu)}
+              onClick={() => handleAddMenu(menu)}
               className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"
             >
               {" "}
