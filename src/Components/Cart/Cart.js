@@ -65,13 +65,13 @@ const Cart = () => {
             <div key={key} className="container">
               <img src={item.img} alt="" height={160} width={160} />
               <h2>{item.name}</h2>
-              <h3>
+              <h3 className="h-6 w-2">
                 <span onClick={() => minus(item.id)} className="minus">
                   -
                 </span>
-                <span className="qty">{item.quantity}</span>
+                <span>{item.quantity}</span>
 
-                <span onClick={() => plus(item.id)} className="plus">
+                <span onClick={() => plus(item.id)} className="plus qty">
                   +
                 </span>
               </h3>
@@ -79,14 +79,20 @@ const Cart = () => {
               <hr />
               <button
                 onClick={() => handleRemove(item.id)}
-                className="bg-red-400 "
+                className="bg-red-400 rounded w-16 h-6 mt-10 "
               >
                 remove
               </button>
             </div>
           ))}
           <hr />
-          <h2 className="total">Total: {total}</h2>
+
+          <div className="total">
+            <button className="mr-8 bg-orange-400 rounded-md p-2 text-white hover:bg-lime-400 ">
+              Payment
+            </button>
+            <h2>Total: {total}</h2>
+          </div>
         </h2>
       )}
     </div>

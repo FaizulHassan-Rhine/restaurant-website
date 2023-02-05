@@ -6,6 +6,7 @@ const Menu = ({ menu }) => {
   const [cartCount, setCartCount] = useState(0);
 
   const handleAddMenu = (menu) => {
+    console.log(menu);
     let cartItems = JSON.parse(sessionStorage.getItem("cartItems")) || [];
     let menuExist = cartItems.find((item) => item.id === menu.id);
 
@@ -55,8 +56,6 @@ const Menu = ({ menu }) => {
           </div>
         </div>
       </div>
-
-      <div></div>
     </div>
   );
 };

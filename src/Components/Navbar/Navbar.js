@@ -84,9 +84,11 @@ const Navbar = () => {
             <HiShoppingCart className="mr-2 w-6 h-6 hover:text-lime-400" />
           </Link>
 
-          <button className="bg-orange-400 hover:bg-lime-400 px-2 py-1 rounded-md text-white font-medium">
-            Sign in
-          </button>
+          <Link to="/login">
+            <button className="bg-orange-400 hover:bg-lime-400 px-2 py-1 rounded-md text-white font-medium">
+              Sign in
+            </button>
+          </Link>
         </div>
       </div>
     </div>
