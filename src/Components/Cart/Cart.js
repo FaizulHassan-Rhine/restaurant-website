@@ -63,7 +63,16 @@ const Cart = () => {
         <h2>
           {cartItems.map((item, key) => (
             <div key={key} className="container">
-              <img src={item.img} alt="" height={160} width={160} />
+              <img
+                style={{
+                  width: 100,
+                  height: 100,
+                  marginRight: "20px",
+                  borderRadius: "20px",
+                }}
+                src={item.img}
+                alt=""
+              />
               <h2>{item.name}</h2>
               <h3 className="h-6 w-2">
                 <span onClick={() => minus(item.id)} className="minus">
