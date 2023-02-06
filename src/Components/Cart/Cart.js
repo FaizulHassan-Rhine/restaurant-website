@@ -85,7 +85,9 @@ const Cart = () => {
                   +
                 </span>
               </h3>
-              <h2>{item.countPrice > 0 ? item.countPrice : item.price}</h2>
+              <h2 className="pri">
+                {item.countPrice > 0 ? item.countPrice : item.price}
+              </h2>
               <hr />
               <button
                 onClick={() => handleRemove(item.id)}

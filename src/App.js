@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import Cart from "./Components/Cart/Cart";
 import NotFound from "./Components/NotFound/NotFound";
 import Login from "./Components/Login/Login";
+import SignUp from "./Components/Login/SignUp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>

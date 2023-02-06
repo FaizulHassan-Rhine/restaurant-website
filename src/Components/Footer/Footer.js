@@ -13,7 +13,7 @@ const Footer = () => {
       <footer className="footer lg:justify-items-center p-10 bg-black text-white grid lg:grid-cols-4">
         <div>
           <figure>
-            <img className="h-20 w-20 -mt-1 ml-12" src={logo} alt="" />
+            <img className="h-20 w-16 -mt-1 ml-12" src={logo} alt="" />
           </figure>
           <p>
             <span className="font-bold text-orange-400 text-xl">Hotline</span>{" "}

@@ -2,6 +2,9 @@
   display: flex;
   padding: 25px 50px 0 50px;
 }
+.pri {
+  color: #000000;
+}
 
 .container h2 {
   margin: auto;
@@ -55,4 +58,29 @@
 
   font-size: 20px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 639px) {
+  .container {
+    padding: 0 0 0 0;
+  }
+  .container h2 {
+    justify-items: center !important;
+    font-size: 12px !important;
+  }
+  .container h3 {
+    /* justify-items: center !important; */
+    font-size: 12px !important;
+    margin-left: -15px;
+  }
+  .container h3 span {
+    height: 20px;
+    width: 15px;
+    /* padding: 10px; */
+    cursor: pointer;
+    background-color: #e0e0e0;
+  }
+  .pri {
+    margin-left: 15px;
+  }
 }

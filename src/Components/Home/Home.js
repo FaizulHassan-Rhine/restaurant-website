@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import bannerPhoto from "../../images/h_b2-.png";
+import bannerPhoto from "../../images/h_b2v.png";
 import Footer from "../Footer/Footer";
 import PriceBoard from "../PriceBoard/PriceBoard";
 import Menus from "../Menus/Menus";
