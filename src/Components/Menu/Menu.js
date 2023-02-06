@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Menu = ({ menu }) => {
   const { id, name, img, price } = menu;
@@ -46,13 +47,15 @@ const Menu = ({ menu }) => {
           <h2 className="card-title font-bold">{name}</h2>
           <p className="text-lg font-bold text-red-700">${price}</p>
           <div className="card-actions justify-center">
-            <button
-              onClick={() => handleAddMenu(menu)}
-              className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"
-            >
-              {" "}
-              Add To Cart
-            </button>
+            <Link to="/cart">
+              <button
+                onClick={() => handleAddMenu(menu)}
+                className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"
+              >
+                {" "}
+                Add To Cart
+              </button>
+            </Link>
           </div>
         </div>
       </div>

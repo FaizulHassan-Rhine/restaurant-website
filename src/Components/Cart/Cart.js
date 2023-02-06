@@ -72,6 +72,7 @@ const Cart = () => {
                 }}
                 src={item.img}
                 alt=""
+                n
               />
               <h2>{item.name}</h2>
               <h3 className="h-6 w-2">

@@ -40,9 +40,11 @@ const Navbar = () => {
                   <button>Menu</button>
                 </AnchorLink>
               </li>
-              <AnchorLink href="#contact">
-                <button>Contact</button>
-              </AnchorLink>
+              <li>
+                <AnchorLink href="#contact">
+                  <button>Contact</button>
+                </AnchorLink>
+              </li>
               <li>
                 <AnchorLink href="#blog">
                   <button>Blog</button>
