@@ -39,7 +39,7 @@ const PriceBoard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96  lg:ml-20 lg:mt-20">
+        <div className="card w-96   lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               SNACKS
@@ -93,7 +93,7 @@ const PriceBoard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96  lg:ml-20 lg:mt-20">
+        <div className="card w-96   lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               Combo Package

@@ -107,7 +107,7 @@ const Login = () => {
                         Remember me
                       </label>
                     </div>
-                    <a href="#!" class="text-gray-800">
+                    <a href="#!" class="text-gray-800 hover:text-red-600">
                       Forgot password?
                     </a>
                   </div>
@@ -119,7 +119,7 @@ const Login = () => {
                     >
                       Login
                     </button>
-                    <p class="text-sm font-semibold mt-2 pt-1 mb-0">
+                    <p class="text-sm font-semibold mt-2 pt-1  mb-0">
                       Don't have an account?
                       <Link to="/signup">
                         <a
