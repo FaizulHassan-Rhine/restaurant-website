@@ -96,33 +96,27 @@ const PriceBoard = () => {
         <div className="card w-96   lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
-              Combo Package
+              CHICKEN FOOD
             </h2>
             <p className="font-bold text-xl ">
-              Frenzy's Combo --------- <span>$80</span>
+              Chicken Twister ---------- <span>$30</span>
               <br />
-              <p className="text-xs font-bold  ">Chicken Nuggets,Fries,Wings</p>
+              <p className="text-xs font-bold  ">Regular,Garlic,Sweet,Naga</p>
             </p>
             <p className="font-bold text-xl ">
-              Family Combo ----------- <span>$120</span>
+              Chicken Popcorn -------- <span>$20</span>
               <br />
-              <p className="text-xs font-bold   ">
-                Chicken Nuggets,Fries,Wings
-              </p>
+              <p className="text-xs font-bold   ">Regular,Garlic,Sweet,Naga</p>
             </p>
             <p className="font-bold text-xl ">
-              Couple Combo ----------- <span>$50</span>
+              Chicken Strip ------------- <span>$50</span>
               <br />
-              <p className="text-xs font-bold   ">
-                Chicken Nuggets,Fries,Wings
-              </p>
+              <p className="text-xs font-bold   ">Regular,Garlic,Sweet,Naga</p>
             </p>
             <p className="font-bold text-xl ">
-              Kids Combo --------------- <span>$60</span>
+              Chicken Sandwich ------ <span>$30</span>
               <br />
-              <p className="text-xs font-bold   ">
-                Chicken Nuggets,Fries,Wings
-              </p>
+              <p className="text-xs font-bold   ">Regular,Garlic,Sweet,Naga</p>
             </p>
           </div>
         </div>
