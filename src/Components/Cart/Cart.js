@@ -69,6 +69,7 @@ const Cart = () => {
                   height: 100,
                   marginRight: "20px",
                   borderRadius: "20px",
+                  marginBottom: "10px",
                 }}
                 src={item.img}
                 alt=""
@@ -86,7 +87,7 @@ const Cart = () => {
                 </span>
               </h3>
               <h2 className="pri">
-                {item.countPrice > 0 ? item.countPrice : item.price}
+                ${item.countPrice > 0 ? item.countPrice : item.price}
               </h2>
               <hr />
               <button
@@ -103,7 +104,7 @@ const Cart = () => {
             <button className="mr-8 bg-orange-400 rounded-md p-2 text-white hover:bg-lime-400 ">
               Payment
             </button>
-            <h2>Total: {total}</h2>
+            <h2>Total: ${total}</h2>
           </div>
         </h2>
       )}
