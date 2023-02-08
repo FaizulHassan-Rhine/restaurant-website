@@ -8,7 +8,7 @@ const PriceBoard = () => {
         <span className="font-bold   text-white">Frenzy's</span> Menu{" "}
       </h2>
       <div className="md:grid  md:grid-cols-2 lg:grid lg:grid-cols-2 justify-items-center  ">
-        <div className="card w-96   lg:ml-56 lg:mt-20">
+        <div className="card w-96 ml-8  lg:ml-56 lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               COMBO PACKAGE
@@ -39,7 +39,7 @@ const PriceBoard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96   lg:mt-20">
+        <div className="card w-96 ml-8  lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               SNACKS
@@ -66,7 +66,7 @@ const PriceBoard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96  lg:ml-56 lg:mt-20">
+        <div className="card w-96 ml-8 lg:ml-56 lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               FRENZY SPECIAL
@@ -93,7 +93,7 @@ const PriceBoard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96   lg:mt-20">
+        <div className="card w-96  ml-8 lg:mt-20">
           <div className="card-body ">
             <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
               CHICKEN FOOD

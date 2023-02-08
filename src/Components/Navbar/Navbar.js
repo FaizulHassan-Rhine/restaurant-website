@@ -1,11 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../images/logo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HiShoppingCart } from "react-icons/hi";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const handle = () => {
+    navigate("/home");
+  };
+
   return (
     <div className="sticky-navbar">
       <div className="navbar bg-white h-28 px-10">
@@ -66,17 +71,17 @@ const Navbar = () => {
 
             <li>
               <AnchorLink href="#price-menu">
-                <button>Menu</button>
+                <button onClick={handle}>Menu</button>
               </AnchorLink>
             </li>
             <li>
               <AnchorLink href="#contact">
-                <button>Contact</button>
+                <button onClick={handle}>Contact</button>
               </AnchorLink>
             </li>
             <li>
               <AnchorLink href="#blog">
-                <button>Blog</button>
+                <button onClick={handle}>Blog</button>
               </AnchorLink>
             </li>
           </ul>

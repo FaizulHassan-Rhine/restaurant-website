@@ -11,7 +11,7 @@ import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
   return (
-    <div>
+    <div id="homee">
       <div className="px-16 ">
         <div className="lg:grid grid-cols-2">
           <div className="mt-10 lg:mt-24 ">

@@ -2,8 +2,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div id="blog" className="my-40 pt-40">
-      <h1 class="text-4xl uppercase text-center font-bold mb-10 from-current ">
+    <div id="blog" className="my:20  lg:my-40 lg:pt-40 md:my-40 md:pt-40">
+      <h1 class=" text-2xl lg:text-4xl uppercase text-center font-bold mb-10 from-current ">
         <span className="text-orange-400">Frenzy</span> Food Blog
       </h1>
       <div class="container mx-auto px-12 rounded-xl">
@@ -11,7 +11,7 @@ const Blog = () => {
         <div class="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6 space-y-4 sm:space-y-0">
           <div class="bg-white">
             <div>
-              <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div class="shadow-lg mx-10 mb-10 md:mx-0 lg:mx-0 hover:shadow-xl transform transition duration-500 hover:scale-105">
                 <div>
                   <img
                     class="w-full rounded-md"
@@ -51,7 +51,7 @@ const Blog = () => {
           {/* box---2 */}
           <div class="bg-white">
             <div>
-              <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div class="shadow-lg mx-10  mb-10 md:mx-0 lg:mx-0 hover:shadow-xl transform transition duration-500 hover:scale-105">
                 <div>
                   <img
                     class="w-full rounded-md"
@@ -90,7 +90,7 @@ const Blog = () => {
           {/* box----3 */}
           <div class="bg-white">
             <div>
-              <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div class="mx-10 md:mx-0 lg:mx-0  mb-10 shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
                 <div>
                   <img
                     class="w-full rounded-md"

@@ -7,10 +7,12 @@ import Cart from "./Components/Cart/Cart";
 import NotFound from "./Components/NotFound/NotFound";
 import Login from "./Components/Login/Login";
 import SignUp from "./Components/Login/SignUp";
+import Scroll from "./Components/Scroll/Scroll";
 
 function App() {
   return (
     <div className="App">
+      <Scroll></Scroll>
       <Navbar></Navbar>
 
       <Routes>

@@ -10,7 +10,7 @@ const Welcome = () => {
         Welcome to <span className="font-bold text-orange-400">Fry Frenzy</span>
       </h2>
       <div className="  md:grid md:grid-cols-2 justify-items-center lg:grid lg:grid-cols-3 mx-10">
-        <div className="card  w-96 bg-base-100 ">
+        <div className="card   bg-base-100 ">
           <figure>
             <img className="h-36 w-36 ml-2 " src={food} alt="" />
           </figure>
@@ -22,7 +22,7 @@ const Welcome = () => {
             </p>
           </div>
         </div>
-        <div className="card  w-96 bg-base-100 ">
+        <div className="card   bg-base-100 ">
           <figure>
             <img className="h-36 w-36 ml-2" src={chef} alt="" />
           </figure>
@@ -34,7 +34,7 @@ const Welcome = () => {
             </p>
           </div>
         </div>
-        <div className="card  w-96 bg-base-100 ">
+        <div className="card   bg-base-100 ">
           <figure>
             <img className="h-36 w-36 ml-2" src={service} alt="" />
           </figure>
