@@ -12,7 +12,7 @@ import Reviews from "../Reviews/Reviews";
 const Home = () => {
   return (
     <div id="homee">
-      <div className="px-16 ">
+      <div className="px-16 container mx-auto ">
         <div className="lg:grid grid-cols-2">
           <div className="mt-10 lg:mt-24 ">
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-orange-400">

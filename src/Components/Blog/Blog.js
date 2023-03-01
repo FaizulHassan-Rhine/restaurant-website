@@ -2,7 +2,10 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div id="blog" className="my:20  lg:my-40 lg:pt-40 md:my-40 md:pt-40">
+    <div
+      id="blog"
+      className="my:20  lg:my-40 lg:pt-40 md:my-40 md:pt-40 container mx-auto"
+    >
       <h1 class=" text-2xl lg:text-4xl uppercase text-center font-bold mb-10 from-current ">
         <span className="text-orange-400">Frenzy</span> Food Blog
       </h1>

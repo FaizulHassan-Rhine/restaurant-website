@@ -9,9 +9,9 @@ import {
 
 const Footer = () => {
   return (
-    <div id="contact">
-      <footer className="footer lg:justify-items-center p-10 bg-black text-white grid lg:grid-cols-4">
-        <div>
+    <div id="contact" className=" bg-black">
+      <footer className="footer container mx-auto lg:justify-items-center p-10 text-white grid lg:grid-cols-4">
+        <div className="">
           <figure>
             <img className="h-20 w-16 -mt-1 ml-12" src={logo} alt="" />
           </figure>

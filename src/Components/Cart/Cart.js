@@ -62,7 +62,7 @@ const Cart = () => {
       ) : (
         <h2>
           {cartItems.map((item, key) => (
-            <div key={key} className="container">
+            <div key={key} className="container-cart">
               <img
                 style={{
                   width: 100,

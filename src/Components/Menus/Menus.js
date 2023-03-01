@@ -10,7 +10,7 @@ const Menus = () => {
       .then((data) => setmenus(data));
   }, []);
   return (
-    <div id="menuss">
+    <div id="menuss" className="container m-auto">
       <h2 className="text-center font-bold text-3xl mb-16 text-orange-400">
         {" "}
         Our Best Seller
