@@ -10,7 +10,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="my-32 px-6 md:px-10 lg:px-20 ">
+    <div className="my-32 px-6 md:px-10 lg:px-20 container mx-auto ">
       <div>
         <h2 className="text-4xl text-center text-orange-400 font-bold">
           What Our Customers Says
