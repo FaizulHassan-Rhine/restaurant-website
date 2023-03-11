@@ -34,7 +34,7 @@ const Blog = () => {
                       delicious combination of Indian and Chinese cuisines. But
                       it is our culinary genius and expertise that led to the
                       invention of chilli paneer! While some experiments sound
-                      appetising, other experiments are simply disastrous.
+                      appetising, other experiments are simply disastrous
                       Recently.
                     </p>
                     <button class="mt-4 w-full text-center hover:bg-lime-400 bg-orange-400 py-2 rounded-lg">
