@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div
       id="blog"
-      className="my:20  lg:my-40 lg:pt-40 md:my-40 md:pt-40 container mx-auto"
+      className="my-20  lg:my-40 lg:pt-40 md:my-40 md:pt-40 container mx-auto"
     >
       <h1 class=" text-2xl lg:text-4xl uppercase text-center font-bold mb-10 from-current ">
         <span className="text-orange-400">Frenzy</span> Food Blog
@@ -34,8 +34,8 @@ const Blog = () => {
                       delicious combination of Indian and Chinese cuisines. But
                       it is our culinary genius and expertise that led to the
                       invention of chilli paneer! While some experiments sound
-                      appetising, other experiments are simply disastrous.
-                      Recently
+                      appetising, other experiments are simply disastrous
+                      Recently.
                     </p>
                     <button class="mt-4 w-full text-center hover:bg-lime-400 bg-orange-400 py-2 rounded-lg">
                       <a
