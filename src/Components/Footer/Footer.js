@@ -60,7 +60,7 @@ const Footer = () => {
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
-          <a className="link link-hover">Data Managementnpm </a>
+          <a className="link link-hover">Data Management </a>
         </div>
       </footer>
       <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center ">
