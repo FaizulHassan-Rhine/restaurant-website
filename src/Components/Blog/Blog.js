@@ -1,5 +1,9 @@
 import React from "react";
 
+import b1 from '../../images/b1.png'
+import b2 from '../../images/b2.png'
+import b3 from '../../images/b3.png'
+
 const Blog = () => {
   return (
     <div
@@ -18,7 +22,7 @@ const Blog = () => {
                 <div>
                   <img
                     class="w-full rounded-md"
-                    src="https://c.ndtvimg.com/2021-06/pqpb282_pizza_625x300_13_June_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+                    src={b1}
                     alt=""
                   />
                   <div class="px-4 py-2">
@@ -58,7 +62,7 @@ const Blog = () => {
                 <div>
                   <img
                     class="w-full rounded-md"
-                    src="https://c.ndtvimg.com/2019-04/nb4agmks_chicken-wings-generic_625x300_26_April_19.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350"
+                    src={b2}
                     alt=""
                   />
                   <div class="px-4 py-2">
@@ -97,7 +101,7 @@ const Blog = () => {
                 <div>
                   <img
                     class="w-full rounded-md"
-                    src="https://c.ndtvimg.com/2019-05/usn4dnv_fried-chicken_625x300_24_May_19.jpg"
+                    src={b3}
                     alt=""
                   />
                   <div class="px-4 py-2">

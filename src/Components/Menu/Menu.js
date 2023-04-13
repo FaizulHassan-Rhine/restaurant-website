@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
+
 const Menu = ({ menu }) => {
   const { id, name, img, price } = menu;
 
@@ -15,10 +17,10 @@ const Menu = ({ menu }) => {
       cartItems = cartItems.map((item) =>
         item.id === menu.id
           ? {
-              ...item,
-              quantity: item.quantity + 1,
-              countPrice: item.price * (item.quantity + 1),
-            }
+            ...item,
+            quantity: item.quantity + 1,
+            countPrice: item.price * (item.quantity + 1),
+          }
           : item
       );
     } else {
