@@ -27,13 +27,13 @@ const Footer = () => {
           <p>Fry Frenzy</p>
           <div className="flex text-orange-400 gap-1">
             <a href="https://www.facebook.com/fryfrenzyofficial" target="_blank" className="link link-hover">
-              <FaFacebookSquare className="h-10 w-10 lg:h-6 lg:w-6" />
+              <FaFacebookSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
             <a href="https://www.instagram.com/fryfrenzyofficial/" target="_blank" className="link link-hover">
-              <FaInstagramSquare className="h-6 w-6" />
+              <FaInstagramSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
             <a href="https://wa.me/+8801327364140" target="_blank" className="link link-hover">
-              <FaWhatsappSquare className="h-6 w-6" />
+              <FaWhatsappSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
           </div>
         </div>
