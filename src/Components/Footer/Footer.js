@@ -51,10 +51,8 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400 ">Company</span>
+          <Link to="/about-us" className="link link-hover">About Us</Link>
           <Link to="/contact-us" className="link link-hover">Contact</Link>
-          {/* <AnchorLink href="#blog">
-            <a className="link link-hover">Blog</a>
-          </AnchorLink> */}
           <a className="link link-hover">Location</a>
         </div>
         <div>

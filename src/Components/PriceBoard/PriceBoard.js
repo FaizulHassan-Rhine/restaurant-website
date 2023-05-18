@@ -57,7 +57,7 @@ const PriceBoard = () => {
               <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
                 Chicken Lollypop
               </h2>
-              <div className="flex gap-20">
+              <div className="flex gap-10">
                 <div>
                   <p className="font-bold text-xl ">
                     Signature

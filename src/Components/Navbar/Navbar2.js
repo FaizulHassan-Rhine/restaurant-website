@@ -80,21 +80,21 @@ const Navbar2 = () => {
                                     }`}
                             >
                                 <ul className="flex flex-col items-center justify-center space-y-8 lg:flex-row lg:space-x-6 lg:space-y-0">
-                                    <li className="text-black font-semibold hover:text-orange-400">
+                                    <li className="text-black font-semibold">
                                         <HashLink smooth
                                             to="/#root"
                                             onClick={() => handleLinkClick("homee")}
-                                            className={` ${activeLink === "homee" ? "text-orange-400" : ""
+                                            className={` hover:text-orange-400 ${activeLink === "homee" ? "text-orange-400" : ""
                                                 }`}
                                         >
                                             Home
                                         </HashLink>
                                     </li>
-                                    <li className="text-black font-semibold hover:text-orange-400">
+                                    <li className="text-black font-semibold ">
                                         <HashLink smooth
                                             to="/#menuss"
                                             onClick={() => handleLinkClick("menu")}
-                                            className={` ${activeLink === "menu" ? "text-orange-400" : ""
+                                            className={`hover:text-orange-400 ${activeLink === "menu" ? "text-orange-400" : ""
                                                 }`}
                                         >
                                             Menu
@@ -109,7 +109,7 @@ const Navbar2 = () => {
                                                 <Link
                                                     to="/contact-us"
                                                     onClick={() => handleLinkClick("contact")}
-                                                    className={` ${activeLink === "contact" ? "text-orange-400" : ""
+                                                    className={`  hover:text-orange-400 ${activeLink === "contact" ? "text-orange-400" : ""
                                                         }`}
                                                 >
                                                     Contact <i className="fa-solid fa-chevron-down text-xs"></i>
@@ -119,11 +119,11 @@ const Navbar2 = () => {
                                         </div>
                                     </li>
 
-                                    <li className="text-black font-semibold hover:text-orange-400">
+                                    <li className="text-black font-semibold">
                                         <Link smooth
                                             to="/about-us"
                                             onClick={() => handleLinkClick("about")}
-                                            className={` ${activeLink === "about" ? "text-orange-400" : ""
+                                            className={`  hover:text-orange-400 ${activeLink === "about" ? "text-orange-400" : ""
                                                 }`}
                                         >
                                             About Us
@@ -140,14 +140,14 @@ const Navbar2 = () => {
                                     <button
                                         id="singInButton"
 
-                                        className="flex justify-center w-full px-4 py-2 text-center text-black font-semibold hover:text-white  rounded-3xl  hover:bg-[#003333]"
+
                                     >
                                         <Link to="/cart">
-                                            <HiShoppingCart className="mr-2 w-6 h-6 " />
+                                            <HiShoppingCart className="mr-2 w-6 h-6 hover:text-green-500" />
                                         </Link>
                                     </button>
                                     <Link to="/login">
-                                        <button className="bg-orange-400 hover:bg-lime-400 px-2 py-1 rounded-md text-white font-medium">
+                                        <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
                                             Sign in
                                         </button>
                                     </Link>
