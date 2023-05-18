@@ -66,7 +66,9 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="/home">Home</Link>
+              <AnchorLink href="#homee">
+                <button onClick={handle}>Home</button>
+              </AnchorLink>
             </li>
 
             <li>
@@ -75,9 +77,9 @@ const Navbar = () => {
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#contact">
+              <Link to="/contact-us">
                 <button onClick={handle}>Contact</button>
-              </AnchorLink>
+              </Link>
             </li>
             <li>
               <AnchorLink href="#blog">

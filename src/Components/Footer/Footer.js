@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Footer = () => {
@@ -50,9 +51,10 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400 ">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Blog</a>
+          <Link to="/contact-us" className="link link-hover">Contact</Link>
+          <AnchorLink href="#blog">
+            <a className="link link-hover">Blog</a>
+          </AnchorLink>
           <a className="link link-hover">Location</a>
         </div>
         <div>
