@@ -15,7 +15,7 @@ const PriceBoard = () => {
           Frenzy's Menu
         </h2>
         <div className="md:grid  md:grid-cols-2 lg:grid lg:grid-cols-3  justify-items-center  ">
-          <div className="card w-full md:w-96 ml-8   lg:ml-56 lg:mt-20">
+          <div className="card w-96 ml-8   lg:ml-56 lg:mt-20">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
                 Chicken Fry
@@ -37,16 +37,16 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
 
                 </div>
@@ -98,13 +98,13 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
 
                 </div>
@@ -135,23 +135,23 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="card w-96 ml-8  lg:ml-36 lg:mt-10">
+          <div className="card w-96 ml-8  lg:ml-36 ">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
                 Strips
@@ -173,22 +173,22 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="card w-96 ml-8   lg:mt-10">
+          <div className="card w-96 ml-8 ">
             <div className="card-body ">
               <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
                 Sides
@@ -213,19 +213,19 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                 </div>
               </div>
@@ -248,10 +248,10 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300
+                    300 tk
                   </p>
 
                 </div>

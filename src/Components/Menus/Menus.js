@@ -23,43 +23,43 @@ const Menus = () => {
       "id": 1,
       "img": p1,
       "name": "Chicken Fry",
-      "price": 20
+      "price": 300
     },
     {
       "id": 2,
       "img": p2,
       "name": "Chicken Lollypop",
-      "price": 15
+      "price": 300
     },
     {
       "id": 3,
       "img": p3,
       "name": "Brugers",
-      "price": 25
+      "price": 300
     },
     {
       "id": 4,
       "img": p4,
       "name": "Wings",
-      "price": 10
+      "price": 300
     },
     {
       "id": 5,
       "img": p5,
       "name": "Strips",
-      "price": 35
+      "price": 300
     },
     {
       "id": 6,
       "img": p6,
       "name": "Sides",
-      "price": 25
+      "price": 300
     },
     {
       "id": 7,
       "img": p7,
       "name": "Dips",
-      "price": 20
+      "price": 300
     }
 
 
