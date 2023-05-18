@@ -12,7 +12,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
-    <div id="contact" className=" bg-black">
+    <div className=" bg-black">
       <footer className="footer container mx-auto lg:justify-items-center p-10 text-white grid lg:grid-cols-4">
         <div className="">
           <figure>
@@ -29,10 +29,10 @@ const Footer = () => {
             <a href="https://www.facebook.com/fryfrenzyofficial" target="_blank" className="link link-hover">
               <FaFacebookSquare className="h-6 w-6" />
             </a>
-            <a href="https://www.instagram.com/fry.frenzy_official/" target="_blank" className="link link-hover">
+            <a href="https://www.instagram.com/fryfrenzyofficial/" target="_blank" className="link link-hover">
               <FaInstagramSquare className="h-6 w-6" />
             </a>
-            <a className="link link-hover">
+            <a href="https://wa.me/+8801327364140" target="_blank" className="link link-hover">
               <FaWhatsappSquare className="h-6 w-6" />
             </a>
           </div>
@@ -52,9 +52,9 @@ const Footer = () => {
         <div>
           <span className="text-lg font-bold text-orange-400 ">Company</span>
           <Link to="/contact-us" className="link link-hover">Contact</Link>
-          <AnchorLink href="#blog">
+          {/* <AnchorLink href="#blog">
             <a className="link link-hover">Blog</a>
-          </AnchorLink>
+          </AnchorLink> */}
           <a className="link link-hover">Location</a>
         </div>
         <div>

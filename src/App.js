@@ -13,6 +13,7 @@ import TermsCondition from "./Components/TermsCondition/TermsCondition";
 import CookiePolicy from "./Components/CookiePolicy/CookiePolicy";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Navbar2 from "./Components/Navbar/Navbar2";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/terms-condition" element={<TermsCondition />} />
         <Route path="/cookie" element={<CookiePolicy />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
     </div>
   );

@@ -28,45 +28,40 @@ const Menus = () => {
     {
       "id": 2,
       "img": p2,
-      "name": "Chicken Wings",
+      "name": "Chicken Lollypop",
       "price": 15
     },
     {
       "id": 3,
       "img": p3,
-      "name": "Chicken Shawarma",
+      "name": "Brugers",
       "price": 25
     },
     {
       "id": 4,
       "img": p4,
-      "name": "Chicken Lollypop",
+      "name": "Wings",
       "price": 10
     },
     {
       "id": 5,
       "img": p5,
-      "name": "Chicken Burger",
+      "name": "Strips",
       "price": 35
     },
     {
       "id": 6,
       "img": p6,
-      "name": "Chicken Sausage",
+      "name": "Sides",
       "price": 25
     },
     {
       "id": 7,
       "img": p7,
-      "name": "Chicken Nuggets",
+      "name": "Dips",
       "price": 20
-    },
-    {
-      "id": 8,
-      "img": p8,
-      "name": "Chicken Kabab",
-      "price": 30
     }
+
 
 
   ]

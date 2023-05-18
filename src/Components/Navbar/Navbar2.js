@@ -120,14 +120,14 @@ const Navbar2 = () => {
                                     </li>
 
                                     <li className="text-black font-semibold hover:text-orange-400">
-                                        <HashLink smooth
-                                            to="/#blog"
-                                            onClick={() => handleLinkClick("blog")}
-                                            className={` ${activeLink === "blog" ? "text-orange-400" : ""
+                                        <Link smooth
+                                            to="/about-us"
+                                            onClick={() => handleLinkClick("about")}
+                                            className={` ${activeLink === "about" ? "text-orange-400" : ""
                                                 }`}
                                         >
-                                            Blog
-                                        </HashLink>
+                                            About Us
+                                        </Link>
                                     </li>
 
 

@@ -38,8 +38,8 @@ const Home = () => {
       <Welcome></Welcome>
       <Menus></Menus>
       <PriceBoard></PriceBoard>
-      <Reviews></Reviews>
-      <Blog></Blog>
+      {/* <Reviews></Reviews> */}
+      {/* <Blog></Blog> */}
       <Footer></Footer>
     </div>
   );
