@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky-navbar  bg-white h-32 px-10">
+    <div className="sticky-navbar  bg-white h-24 px-10">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -58,8 +58,8 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/">
-            <button className=" h-24 w-32">
-              <img className="h-24 w-20 ml-5" src={logo} alt="" />
+            <button className=" h-20 w-28">
+              <img className="h-20 w-16 ml-5" src={logo} alt="" />
             </button>
           </a>
         </div>

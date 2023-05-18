@@ -8,6 +8,9 @@ import NotFound from "./Components/NotFound/NotFound";
 import Login from "./Components/Login/Login";
 import SignUp from "./Components/Login/SignUp";
 import Scroll from "./Components/Scroll/Scroll";
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermsCondition from "./Components/TermsCondition/TermsCondition";
+import CookiePolicy from "./Components/CookiePolicy/CookiePolicy";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/cookie" element={<CookiePolicy />} />
       </Routes>
     </div>
   );

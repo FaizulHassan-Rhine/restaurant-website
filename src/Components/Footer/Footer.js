@@ -2,10 +2,12 @@ import React from "react";
 import logo from "../../images/logo.png";
 import {
   FaFacebookSquare,
-  FaLinkedin,
   FaInstagramSquare,
-  FaTwitterSquare,
+  FaWhatsappSquare
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -17,22 +19,20 @@ const Footer = () => {
           </figure>
           <p>
             <span className="font-bold text-orange-400 text-xl">Hotline</span>{" "}
-            +91 657 3460
+            01327-364140
           </p>
+          <p className="flex gap-2"><MdEmail className="text-white text-xl" />eat@fryfrenzy.com</p>
           <p>2nd Floor, Navana DH Tower, Plot:06, Panthapath, Dhaka 1215</p>
           <p>Fry Frenzy</p>
           <div className="flex text-orange-400 gap-1">
-            <a className="link link-hover">
+            <a href="https://www.facebook.com/fryfrenzyofficial" target="_blank" className="link link-hover">
               <FaFacebookSquare className="h-6 w-6" />
             </a>
-            <a className="link link-hover">
-              <FaLinkedin className="h-6 w-6" />
-            </a>
-            <a className="link link-hover">
+            <a href="https://www.instagram.com/fry.frenzy_official/" target="_blank" className="link link-hover">
               <FaInstagramSquare className="h-6 w-6" />
             </a>
             <a className="link link-hover">
-              <FaTwitterSquare className="h-6 w-6" />
+              <FaWhatsappSquare className="h-6 w-6" />
             </a>
           </div>
         </div>
@@ -57,10 +57,10 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400">Legal</span>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-          <a className="link link-hover">Data Management </a>
+          <Link to="/terms-condition" className="link link-hover">Terms of use</Link>
+          <Link to="/privacy-policy" className="link link-hover">Privacy policy</Link>
+          <Link to="/cookie" className="link link-hover">Cookie policy</Link>
+
         </div>
       </footer>
       <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center ">
