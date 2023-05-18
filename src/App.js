@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="App">
       <Scroll></Scroll>
-      {/* <Navbar2 /> */}
-      <Navbar></Navbar>
+      <Navbar2 />
+      {/* <Navbar></Navbar> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
