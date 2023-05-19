@@ -79,7 +79,7 @@ const Navbar2 = () => {
                                 className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
                                     }`}
                             >
-                                <ul className="flex flex-col items-center justify-center space-y-8 lg:flex-row lg:space-x-6 lg:space-y-0">
+                                <ul className="flex flex-col  items-center justify-center space-y-8 lg:flex-row lg:space-x-6 lg:space-y-0">
                                     <li className="text-black font-semibold">
                                         <HashLink smooth
                                             to="/#root"
@@ -92,7 +92,7 @@ const Navbar2 = () => {
                                     </li>
                                     <li className="text-black font-semibold ">
                                         <HashLink smooth
-                                            to="/#menuss"
+                                            to="/#menu"
                                             onClick={() => handleLinkClick("menu")}
                                             className={`hover:text-orange-400 ${activeLink === "menu" ? "text-orange-400" : ""
                                                 }`}
@@ -104,7 +104,7 @@ const Navbar2 = () => {
                                         <div className="relative">
                                             <button
                                                 // onClick={toggleDropdown}
-                                                className="px-4 py-2 text-black font-semibold hover:text-orange-400"
+                                                className="px-4 py-2 text-black font-semibold "
                                             >
                                                 <Link
                                                     to="/contact-us"
@@ -136,7 +136,7 @@ const Navbar2 = () => {
 
 
 
-                                <div className="mt-3 flex flex-col justify-center items-center space-y-2 lg:hidden ">
+                                <div className="mt-3 flex flex-col justify-center  items-center space-y-2 lg:hidden ">
                                     <button
                                         id="singInButton"
 
