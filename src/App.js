@@ -14,6 +14,7 @@ import CookiePolicy from "./Components/CookiePolicy/CookiePolicy";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Navbar2 from "./Components/Navbar/Navbar2";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import Thankyou from "./Components/Thankyou/Thankyou";
 
 function App() {
   return (
@@ -28,12 +29,14 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="*" element={<NotFound></NotFound>}></Route>
+
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsCondition />} />
         <Route path="/cookie" element={<CookiePolicy />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/thank-you/*" element={<Thankyou />} />
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
