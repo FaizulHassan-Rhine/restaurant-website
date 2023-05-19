@@ -43,6 +43,11 @@ const Menus = () => {
       "name": "Wings",
       "price": 300
     },
+
+
+  ]
+  const data2 = [
+
     {
       "id": 5,
       "img": p5,
@@ -67,19 +72,66 @@ const Menus = () => {
   ]
 
   return (
-    <div id="menu" className="container lg:pt-5 m-auto">
-      <h2 className="text-center font-bold text-3xl mb-16 text-orange-400">
+    <div id="menu" className="container lg:pt-5 mx-auto py-24">
+      <h2 className="text-center font-bold text-3xl my-16 text-orange-400">
         {" "}
         Our Best Seller
       </h2>
-      <div className="grid md:grid md:grid-cols-3 lg:grid-cols-4 mx-5 justify-items-center gap-y-20 ">
-        {data.map((menu) => (
+      <div className={`grid md:grid md:grid-cols-2 lg:grid-cols-4 mx-5 mb-12 justify-items-center gap-y-12 md:gap-y-10 `}>
+        {data.map((menu, index) => (
           <div>
             {console.log(menu)}
+            <div className="card card-compact w-64 md:w-56 lg:w-52 xl:w-64 hover:shadow-xl transform transition duration-500 hover:scale-105 bg-base-100 shadow-xl">
+              <figure>
+                <img className="h-44 w-full p-1   rounded-lg" src={menu.img} alt="" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">{menu.name}</h2>
+                <p className="text-lg font-bold text-red-700">৳ {menu.price}</p>
+                {/* <div className="card-actions justify-center">
+            <Link to="/cart">
+              <button
+                onClick={() => handleAddMenu(menu)}
+                className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"
+              >
+                {" "}
+                Add To Cart
+              </button>
+            </Link>
+          </div> */}
+              </div>
+            </div>
 
-            <Menu key={menu.id} menu={menu}>
 
-            </Menu>
+          </div>
+        ))}
+      </div>
+      <div className={`grid md:grid md:grid-cols-2 lg:grid-cols-3 mx-5 justify-items-center gap-y-12 md:gap-y-10 md:mt-16 lg:px-28 `}>
+        {data2.map((menu, index) => (
+          <div>
+            {console.log(menu)}
+            <div className="card card-compact w-64 md:w-56 lg:w-52 xl:w-64 hover:shadow-xl transform transition duration-500 hover:scale-105 bg-base-100 shadow-xl">
+              <figure>
+                <img className="h-44 w-full p-1   rounded-lg" src={menu.img} alt="" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">{menu.name}</h2>
+                <p className="text-lg font-bold text-red-700">৳ {menu.price}</p>
+                {/* <div className="card-actions justify-center">
+            <Link to="/cart">
+              <button
+                onClick={() => handleAddMenu(menu)}
+                className="bg-orange-400 hover:bg-lime-400  text-white font-semibold p-2 rounded-btn"
+              >
+                {" "}
+                Add To Cart
+              </button>
+            </Link>
+          </div> */}
+              </div>
+            </div>
+
+
           </div>
         ))}
       </div>
@@ -88,3 +140,6 @@ const Menus = () => {
 };
 
 export default Menus;
+
+
+

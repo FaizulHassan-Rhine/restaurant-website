@@ -23,7 +23,7 @@ const Footer = () => {
             01327-364140
           </p>
           <p className="flex gap-2"><MdEmail className="text-white text-xl" />eat@fryfrenzy.com</p>
-          <p>2nd Floor, Navana DH Tower, Plot:06, Panthapath, Dhaka 1215</p>
+          <p><span className=" font-semibold">H/O</span> : 2nd Floor, Navana DH Tower, Plot:06, Panthapath, Dhaka 1215</p>
           <p>Fry Frenzy</p>
           <div className="flex text-orange-400 gap-1">
             <a href="https://www.facebook.com/fryfrenzyofficial" target="_blank" className="link link-hover">

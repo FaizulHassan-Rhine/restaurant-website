@@ -48,7 +48,7 @@ const Menu = ({ menu }) => {
         <div className="card-body">
           <h2 className="card-title font-bold">{name}</h2>
           <p className="text-lg font-bold text-red-700">৳ {price}</p>
-          <div className="card-actions justify-center">
+          {/* <div className="card-actions justify-center">
             <Link to="/cart">
               <button
                 onClick={() => handleAddMenu(menu)}
@@ -58,7 +58,7 @@ const Menu = ({ menu }) => {
                 Add To Cart
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -79,7 +79,7 @@ const Navbar2 = () => {
                                 className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
                                     }`}
                             >
-                                <ul className="flex flex-col  items-center justify-center space-y-8 lg:flex-row lg:space-x-6 lg:space-y-0">
+                                <ul className="flex flex-col  items-center justify-center space-y-8 lg:flex-row  lg:space-x-6 lg:space-y-0">
                                     <li className="text-black font-semibold">
                                         <HashLink smooth
                                             to="/#root"
@@ -100,23 +100,19 @@ const Navbar2 = () => {
                                             Menu
                                         </HashLink>
                                     </li>
-                                    <li>
-                                        <div className="relative">
-                                            <button
-                                                // onClick={toggleDropdown}
-                                                className="px-4 py-2 text-black font-semibold "
-                                            >
-                                                <Link
-                                                    to="/contact-us"
-                                                    onClick={() => handleLinkClick("contact")}
-                                                    className={`  hover:text-orange-400 ${activeLink === "contact" ? "text-orange-400" : ""
-                                                        }`}
-                                                >
-                                                    Contact <i className="fa-solid fa-chevron-down text-xs"></i>
-                                                </Link>
-                                            </button>
+                                    <li
 
-                                        </div>
+                                        className=" text-black font-semibold "
+                                    >
+                                        <Link
+                                            to="/contact-us"
+                                            onClick={() => handleLinkClick("contact")}
+                                            className={`  hover:text-orange-400 ${activeLink === "contact" ? "text-orange-400" : ""
+                                                }`}
+                                        >
+                                            Contact <i className="fa-solid fa-chevron-down text-xs"></i>
+                                        </Link>
+
                                     </li>
 
                                     <li className="text-black font-semibold">
@@ -137,7 +133,7 @@ const Navbar2 = () => {
 
 
                                 <div className="mt-3 flex flex-col justify-center  items-center space-y-2 lg:hidden ">
-                                    <button
+                                    {/* <button
                                         id="singInButton"
 
 
@@ -146,7 +142,7 @@ const Navbar2 = () => {
                                             <HiShoppingCart className="mr-2 w-6 h-6 hover:text-green-500" />
                                         </Link>
                                     </button>
-                                    {/* <Link to="/login">
+                                    <Link to="/login">
                                         <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
                                             Sign in
                                         </button>
@@ -161,7 +157,7 @@ const Navbar2 = () => {
                         <div className="hidden  space-x-2 lg:inline-block ">
 
                             <div className="flex justify-center items-center gap-2">
-                                <button
+                                {/* <button
                                     id="singInButton"
 
 
@@ -171,7 +167,7 @@ const Navbar2 = () => {
                                     </Link>
                                 </button>
 
-                                {/* <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
+                                <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
                                     <Link to="/login">
                                         Sign in
                                     </Link>

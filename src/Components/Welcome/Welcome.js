@@ -6,7 +6,7 @@ import service from "../../images/f_service.png";
 const Welcome = () => {
   return (
     <div className="container mx-auto">
-      <div className="my-32 overflow-hidden ">
+      <div className="mt-24 mb-16 overflow-hidden ">
         <h2 className="text-center text-3xl font-bold mb-20">
           Welcome to{" "}
           <span className="font-bold text-orange-400">Fry Frenzy</span>
