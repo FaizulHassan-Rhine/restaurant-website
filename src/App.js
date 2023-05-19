@@ -8,12 +8,19 @@ import NotFound from "./Components/NotFound/NotFound";
 import Login from "./Components/Login/Login";
 import SignUp from "./Components/Login/SignUp";
 import Scroll from "./Components/Scroll/Scroll";
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermsCondition from "./Components/TermsCondition/TermsCondition";
+import CookiePolicy from "./Components/CookiePolicy/CookiePolicy";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import Navbar2 from "./Components/Navbar/Navbar2";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 function App() {
   return (
     <div className="App">
       <Scroll></Scroll>
-      <Navbar></Navbar>
+      <Navbar2 />
+      {/* <Navbar></Navbar> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +29,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/cookie" element={<CookiePolicy />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
     </div>
   );

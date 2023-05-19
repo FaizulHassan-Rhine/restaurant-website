@@ -47,7 +47,7 @@ const Menu = ({ menu }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold">{name}</h2>
-          <p className="text-lg font-bold text-red-700">${price}</p>
+          <p className="text-lg font-bold text-red-700">৳ {price}</p>
           <div className="card-actions justify-center">
             <Link to="/cart">
               <button

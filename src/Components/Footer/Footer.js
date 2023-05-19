@@ -2,14 +2,17 @@ import React from "react";
 import logo from "../../images/logo.png";
 import {
   FaFacebookSquare,
-  FaLinkedin,
   FaInstagramSquare,
-  FaTwitterSquare,
+  FaWhatsappSquare
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 
 const Footer = () => {
   return (
-    <div id="contact" className=" bg-black">
+    <div className=" bg-black">
       <footer className="footer container mx-auto lg:justify-items-center p-10 text-white grid lg:grid-cols-4">
         <div className="">
           <figure>
@@ -17,22 +20,20 @@ const Footer = () => {
           </figure>
           <p>
             <span className="font-bold text-orange-400 text-xl">Hotline</span>{" "}
-            +91 657 3460
+            01327-364140
           </p>
+          <p className="flex gap-2"><MdEmail className="text-white text-xl" />eat@fryfrenzy.com</p>
           <p>2nd Floor, Navana DH Tower, Plot:06, Panthapath, Dhaka 1215</p>
           <p>Fry Frenzy</p>
           <div className="flex text-orange-400 gap-1">
-            <a className="link link-hover">
-              <FaFacebookSquare className="h-6 w-6" />
+            <a href="https://www.facebook.com/fryfrenzyofficial" target="_blank" className="link link-hover">
+              <FaFacebookSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
-            <a className="link link-hover">
-              <FaLinkedin className="h-6 w-6" />
+            <a href="https://www.instagram.com/fryfrenzyofficial/" target="_blank" className="link link-hover">
+              <FaInstagramSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
-            <a className="link link-hover">
-              <FaInstagramSquare className="h-6 w-6" />
-            </a>
-            <a className="link link-hover">
-              <FaTwitterSquare className="h-6 w-6" />
+            <a href="https://wa.me/+8801327364140" target="_blank" className="link link-hover">
+              <FaWhatsappSquare className="h-12 w-12 lg:h-6 lg:w-6" />
             </a>
           </div>
         </div>
@@ -50,17 +51,21 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400 ">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Blog</a>
-          <a className="link link-hover">Location</a>
+          <Link to="/about-us" className="link link-hover">About Us</Link>
+          <Link to="/contact-us" className="link link-hover">Contact</Link>
+          <div >
+            <p className="pb-3">
+              Location
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.03912029734!2d90.375862!3d23.74703065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1684477699193!5m2!1sen!2sbd" width="250" height="150" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
         <div>
           <span className="text-lg font-bold text-orange-400">Legal</span>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-          <a className="link link-hover">Data Management </a>
+          <Link to="/terms-condition" className="link link-hover">Terms of use</Link>
+          <Link to="/privacy-policy" className="link link-hover">Privacy policy</Link>
+          <Link to="/cookie" className="link link-hover">Cookie policy</Link>
+
         </div>
       </footer>
       <footer className="footer px-10 py-4 border-t bg-black text-white  justify-center ">
