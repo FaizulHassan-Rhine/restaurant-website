@@ -9,7 +9,7 @@ import p4 from '../Menu/Images/4.png';
 import p5 from '../Menu/Images/5.png';
 import p6 from '../Menu/Images/6.png';
 import p7 from '../Menu/Images/7.png';
-import p8 from '../Menu/Images/8.png';
+
 
 
 
@@ -67,7 +67,7 @@ const Menus = () => {
   ]
 
   return (
-    <div id="menuss" className="container m-auto">
+    <div id="menu" className="container lg:pt-5 m-auto">
       <h2 className="text-center font-bold text-3xl mb-16 text-orange-400">
         {" "}
         Our Best Seller

@@ -20,7 +20,7 @@ const Home = () => {
             </h2>
             <p className="pt-2">Special deal on only Friday</p>
             <p className="text-2xl font-medium">Buy 2 Get 1 Free</p>
-            <AnchorLink href="#menuss">
+            <AnchorLink href="#menu">
               <button className="bg-orange-400 mt-10 p-2 hover:bg-lime-400 rounded-md  text-white text-xs font-semibold">
                 ORDER NOW
               </button>
