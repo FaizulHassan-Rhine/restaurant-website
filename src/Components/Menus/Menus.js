@@ -2,13 +2,13 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Menu from "../Menu/Menu";
 
-import p1 from '../Menu/Images/1.png';
-import p2 from '../Menu/Images/2.png';
-import p3 from '../Menu/Images/3.png';
-import p4 from '../Menu/Images/4.png';
-import p5 from '../Menu/Images/5.png';
-import p6 from '../Menu/Images/6.png';
-import p7 from '../Menu/Images/7.png';
+import p1 from '../Menu/Images/fry.jpg';
+import p2 from '../Menu/Images/lollypoop.jpg';
+import p3 from '../Menu/Images/burger.jpg';
+import p4 from '../Menu/Images/wings.jpg';
+import p5 from '../Menu/Images/strips.jpg';
+import p6 from '../Menu/Images/sides.jpg';
+import p7 from '../Menu/Images/dips.jpg';
 
 
 

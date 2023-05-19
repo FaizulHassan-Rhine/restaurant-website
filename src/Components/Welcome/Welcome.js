@@ -7,9 +7,11 @@ const Welcome = () => {
   return (
     <div className="container mx-auto">
       <div className="my-32 overflow-hidden ">
-        <h2 className="text-center text-3xl  mb-20">
+        <h2 className="text-center text-3xl font-bold mb-20">
           Welcome to{" "}
           <span className="font-bold text-orange-400">Fry Frenzy</span>
+          <p className="text-base font-normal text-orange-600">Where Chickens Rule and Your Tase</p>
+          <p className="text-base font-normal text-orange-600">Buds Drool!</p>
         </h2>
         <div className="  md:grid md:grid-cols-2 justify-items-center lg:grid lg:grid-cols-3 mx-10">
           <div className="card   bg-base-100 ">

@@ -146,11 +146,11 @@ const Navbar2 = () => {
                                             <HiShoppingCart className="mr-2 w-6 h-6 hover:text-green-500" />
                                         </Link>
                                     </button>
-                                    <Link to="/login">
+                                    {/* <Link to="/login">
                                         <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
                                             Sign in
                                         </button>
-                                    </Link>
+                                    </Link> */}
                                 </div>
 
                             </div>
@@ -171,11 +171,11 @@ const Navbar2 = () => {
                                     </Link>
                                 </button>
 
-                                <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
+                                {/* <button className="bg-orange-400 hover:bg-green-500 px-2 py-1 rounded-md text-white font-medium">
                                     <Link to="/login">
                                         Sign in
                                     </Link>
-                                </button>
+                                </button> */}
                             </div>
 
                         </div>

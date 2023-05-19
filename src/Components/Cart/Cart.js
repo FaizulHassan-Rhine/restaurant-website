@@ -65,10 +65,10 @@ const Cart = () => {
             <div key={key} className="container-cart">
               <img
                 style={{
-                  width: 100,
-                  height: 100,
+                  width: "100px",
+                  height: "60px",
                   marginRight: "20px",
-                  borderRadius: "20px",
+                  borderRadius: "5px",
                   marginBottom: "10px",
                 }}
                 src={item.img}
