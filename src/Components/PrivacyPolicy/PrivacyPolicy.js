@@ -8,163 +8,124 @@ function PrivacyPolicy(props) {
     <div className="container mx-auto text-black">
       <div className="privacy">
         <div className="container">
-          <div className="row mt-5">
+          <div className="mx-10 mt-5">
             <img src={privacy} width="100%" height="100%" alt="" />
 
-            <h1 className="text-center mt-5 text-4xl font-semibold">
+            <h1 className="text-center mt-5 mb-5 text-4xl font-semibold">
               PRIVACY POLICY
             </h1>
             <div>
+              <p className="pb-5">
+                At Fry Frenzy, we are committed to protecting your privacy. This
+                Privacy Policy outlines how we collect, use, and safeguard your
+                personal information when you visit our website. By using our
+                website, you consent to the practices described in this policy.
+              </p>
               <b style={{ fontSize: "20px", marginTop: "3%" }}>
                 {" "}
-                Brief Introduction{" "}
+                1 Information We Collect
               </b>
               <p>
-                We know that you care how information about you is used and
-                shared, and we appreciate your trust. This Privacy Policy
-                explains how The KOW Company collect, use and share information
-                about you when you use our websites and online services
-                (“Services”) or otherwise interact with us. Please read this
-                Privacy Policy carefully and contact us if you have any
-                questions.
+                1.1 Personal Information: We may collect personal information
+                such as your name, email address, phone number, and delivery
+                address when you voluntarily provide it to us through our
+                website.
                 <br />
-                If you provide us with your personal information then this
-                indicates that you have had sufficient opportunity to access,
-                and have read and accepted, this Privacy Policy. If you do not
-                wish to provide personal information to us, then you do not have
-                to do so, however it may affect your use of this website or any
-                products and services offered on it.{" "}
+                1.2 Usage Information: We may collect non-personal information
+                about your interactions with our website, including your IP
+                address, browser type, operating system, and referring website.
               </p>
             </div>
 
             <div className="mt-6">
-              <b style={{ fontSize: "20px" }}>
-                {" "}
-                What Information we are Collecting from you?{" "}
-              </b>
-              <br />
-
-              <ul>
-                <li>
-                  Contact details including Name, email address, address and
-                  telephone number{" "}
-                </li>
-                <li>
-                  Demographic information such as Job Title, Gender, postcode,
-                  company name, company type{" "}
-                </li>
-                <li>
-                  Payment Details like Credit Card Information, Account
-                  Information, Billing Address Information (if you are buying
-                  product from us);{" "}
-                </li>
-                <li> Raw Images provided by you to us </li>
-                <li>SOP for Image Processing </li>
-                <li>Your Computers IP Address </li>
-                <li>Browser Type </li>
-              </ul>
-            </div>
-
-            <div className="mt-6">
-              <b style={{ fontSize: "20px" }}>
-                How may we use your personal information?{" "}
-              </b>
-              <br />
-
-              <ul>
-                <li> To Create orders </li>
-                <li> Agreements for the sale of products or services </li>
-                <li>
-                  {" "}
-                  Keeping transaction records accounts, tax invoices or receipts{" "}
-                </li>
-                <li>
-                  {" "}
-                  For communication Purpose (about products and services,
-                  special offers, and events which might interest you){" "}
-                </li>
-                <li>
-                  {" "}
-                  For performing research and analysis to improve our product
-                  and service quality to get your requirement with perfection.{" "}
-                </li>
-                <li> To deliver personalized or customized content to you </li>
-                <li> For Direct Marketing </li>
-                <li> To offer additional benefits to you </li>
-                <li> To send you promotional information </li>
-                <li>
-                  {" "}
-                  To comply with laws or regulations or to comply with any
-                  directions given by regulators or authorities.{" "}
-                </li>
-              </ul>
-            </div>
-
-            <div className="mt-6">
-              <b style={{ fontSize: "20px" }}>
-                Disclosure of Personal Information to Third Parties?{" "}
-              </b>
+              <b style={{ fontSize: "20px" }}> 2 Use of Information</b>
               <br />
 
               <p>
-                {" "}
-                We may disclose your personal information to:
-                <ul>
-                  <li>
-                    Credit reporting agencies and courts, tribunals and
-                    regulatory authorities where customers fail to pay for goods
-                    or services provided by us to them{" "}
-                  </li>
-                  <li>
-                    Courts, tribunals, regulatory authorities and law
-                    enforcement offices as required by law, in connection with
-                    any actual or prospective legal proceedings, or in order to
-                    establish, exercise or defend our legal rights
-                  </li>
-                  <li>
-                    Conducting market research and marketing strategy analysis{" "}
-                  </li>
-                </ul>
-                Where we disclose your personal information to third parties for
-                these purposes, we will request that they follow this Privacy
-                Policy when handling your personal information. If there is a
-                change of control of our business or a sale or transfer of
-                business assets, we reserve the right to transfer to the extent
-                permitted by law our user databases, together with any personal
-                information and non-personal information contained in those
-                databases.{" "}
+                2.1 Personal Information: We may use your personal information
+                to process and fulfill your orders, communicate with you
+                regarding your orders or inquiries, and provide customer
+                support.
+              </p>
+              <p>
+                2.2 Usage Information: We may use non-personal information to
+                analyze trends, administer the website, track users' movements,
+                and gather demographic information for aggregate use. This
+                information helps us improve our website and tailor it to our
+                users' needs.
+              </p>
+            </div>
+
+            <div className="mt-6">
+              <b style={{ fontSize: "20px" }}>3 Security</b>
+              <br />
+
+              <p>
+                We are committed to ensuring the security of your personal
+                information. We implement reasonable security measures to
+                protect against unauthorized access, alteration, disclosure, or
+                destruction of your personal information.
+              </p>
+            </div>
+
+            <div className="mt-6">
+              <b style={{ fontSize: "20px" }}>4 Third-Party Disclosure</b>
+              <br />
+
+              <p>
+                We do not sell, trade, or transfer your personal information to
+                outside parties unless we provide you with advance notice.
+                However, this does not include trusted third parties who assist
+                us in operating our website, conducting our business, or serving
+                you, as long as those parties agree to keep your information
+                confidential.
               </p>
             </div>
 
             <div className="mt-5">
-              <b style={{ fontSize: "20px" }}>
-                {" "}
-                How to make Complaint about a breach in privacy?{" "}
-              </b>
+              <b style={{ fontSize: "20px" }}> 5 Cookies</b>
               <br />
 
               <p>
-                If you have any questions, comments or complaints regarding our
-                practices, or if you are of the view that we have not adhered to
-                this privacy policy, you can contact us by email
-                to eat@fryfrenzy.com
+                Our website may use cookies to enhance your browsing experience.
+                Cookies are small text files stored on your device that allow
+                the website to remember your preferences and improve
+                performance. You can choose to accept or decline cookies. Please
+                refer to our Cookie Policy for more details.
               </p>
             </div>
             <div className="mt-5">
               <b style={{ fontSize: "20px" }}>
-                Changes/Amendments to this Policy{" "}
+                6 Links to Third-Party Websites
               </b>
               <br />
 
               <p>
-                This Privacy Policy may be amended, including with changes,
-                additions and deletions, from time to time in our sole
-                discretion. Your continued use of our website following any
-                amendments indicates that you accept the amendments. We
-                recommend that you check this Privacy Policy regularly, prior to
-                providing personal information, to ensure you are aware of any
-                changes, and only proceed to provide personal information if you
-                accept the new Privacy Policy.{" "}
+                Our website may contain links to third-party websites. We are
+                not responsible for the privacy practices or content of such
+                websites. We encourage you to review the privacy policies of
+                those websites before providing any personal information.
+              </p>
+            </div>
+            <div className="mt-5">
+              <b style={{ fontSize: "20px" }}>
+                7 Changes to this Privacy Policy
+              </b>
+              <br />
+
+              <p>
+                We reserve the right to modify this Privacy Policy at any time.
+                Any changes will be posted on this page, and the updated policy
+                will be effective immediately upon posting.
+              </p>
+            </div>
+            <div className="mt-5">
+              <b style={{ fontSize: "20px" }}>8 Contact Us</b>
+              <br />
+
+              <p>
+                If you have any questions or concerns regarding this Privacy
+                Policy, please contact us at eat@fryfrenzy.com
               </p>
             </div>
           </div>
