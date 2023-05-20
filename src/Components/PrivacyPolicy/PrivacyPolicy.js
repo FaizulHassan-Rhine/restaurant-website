@@ -12,7 +12,7 @@ function PrivacyPolicy(props) {
             <img src={privacy} width="100%" height="100%" alt="" />
 
             <h1 className="text-center mt-5 mb-5 text-4xl font-semibold">
-              PRIVACY POLICY
+              Privacy policy
             </h1>
             <div>
               <p className="pb-5">
