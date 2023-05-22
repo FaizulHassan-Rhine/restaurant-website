@@ -34,7 +34,7 @@ const Menus = () => {
     {
       "id": 3,
       "img": p3,
-      "name": "Brugers",
+      "name": "Burgers",
       "price": 300
     },
     {
