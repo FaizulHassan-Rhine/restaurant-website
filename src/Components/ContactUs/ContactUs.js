@@ -78,6 +78,7 @@ const ContactUs = () => {
                         type="text"
                         id="name"
                         name="name"
+                        required
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-orange-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -94,9 +95,9 @@ const ContactUs = () => {
                         type="email"
                         id="email"
                         name="email"
-                        className={`w-full bg-gray-100 rounded border ${
-                          isValidEmail ? "border-gray-300" : "border-red-500"
-                        } focus:border-orange-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+                        required
+                        className={`w-full bg-gray-100 rounded border ${isValidEmail ? "border-gray-300" : "border-red-500"
+                          } focus:border-orange-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                         value={email}
                         onChange={handleEmailChange}
                       />
@@ -118,6 +119,7 @@ const ContactUs = () => {
                       <textarea
                         id="message"
                         name="message"
+                        required
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-orange-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       ></textarea>
                     </div>
