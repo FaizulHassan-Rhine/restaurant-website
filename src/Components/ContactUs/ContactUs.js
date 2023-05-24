@@ -33,7 +33,7 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
-          //   window.location.href = "./thank-you/" + p;
+          window.location.href = "./thank-you/" + p;
         },
         (error) => {
           console.log(error.text);

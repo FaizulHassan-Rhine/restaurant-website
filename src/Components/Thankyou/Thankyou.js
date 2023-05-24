@@ -1,6 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
+import { useNavigate } from "react-router";
 
 function Thankyou(props) {
+  const naviagate = useNavigate();
+
+  useState(() => {
+    setTimeout(() => {
+      naviagate("/")
+    }, 4000)
+  }, [])
   return (
     <div className="my-20 container mx-auto">
       <div className="row">
