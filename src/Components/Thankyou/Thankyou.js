@@ -1,41 +1,35 @@
 import React, { Component, useState } from "react";
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
 function Thankyou(props) {
-  const naviagate = useNavigate();
+  // const naviagate = useNavigate();
 
-  useState(() => {
-    setTimeout(() => {
-      naviagate("/")
-    }, 4000)
-  }, [])
+  // useState(() => {
+  //   setTimeout(() => {
+  //     naviagate("/")
+  //   }, 4000)
+  // }, [])
   return (
-    <div className="my-20 container mx-auto">
-      <div className="row">
+    <div className="my-20 container   mx-auto">
+      <div className="flex flex-col relative justify-center">
         <p
-          className="text-orange-400"
-          style={{
-            fontWeight: "700",
-            fontSize: "80px",
-            marginTop: "4%",
+          className="text-orange-400 text-center font-extrabold text-5xl md:text-7xl"
 
-            textAlign: "center",
-          }}
         >
           Thank You
         </p>
         <p
-          className="text-center "
-          style={{ fontSize: "25px", color: "black" }}
+          className="text-center text-black text-base md:text-2xl "
         >
           Thank you for getting in touch. One of our team members will reach
           <br /> out to you within the shortest possible time. If you need
           project
-          <br /> assistance, you can contact us at:
-          <br />
-          <br />
-          <u className="text-orange-500">eat@fryfrenzy.com</u>
+          <br /> assistance, you can contact us at
+
+          <u className="text-orange-500 ml-3">eat@fryfrenzy.com</u>
         </p>
+        <Link to="/" className="text-center w-40  bg-orange-400 hover:bg-green-500 text-white py-2 px-6 rounded-lg font-semibold absolute left-[50%] top-[150%]" style={{ transform: 'translateX(-50%)' }}> Back to Home</Link>
       </div>
     </div>
   );

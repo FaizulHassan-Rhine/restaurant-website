@@ -17,7 +17,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row md:gap-10 justify-center items-center ">
             <div className="mt-10 lg:mt-10 ">
               <h2 className="text-3xl md:text-5xl text-center lg:text-[70px] font-extrabold text-gray-700">
-                Its Clucking Delicious<span className="lg:text-[60px] ml-1">!!</span>
+                It's Clucking Delicious<span className="lg:text-[60px] ml-1">!!</span>
               </h2>
               {/* <p className="pt-2">Special deal on only Friday</p>
             <p className="text-2xl font-medium">Buy 2 Get 1 Free</p>
