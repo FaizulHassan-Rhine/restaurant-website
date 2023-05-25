@@ -1,7 +1,7 @@
 import React from "react";
 import "./Price.css";
 import rotateLogo from "../../images/rotate-logo2.png"
-import priceBoard from "../../images/menu-cover.jpg"
+import priceBoard from "../../images/menuBoard.jpg"
 
 const PriceBoard = () => {
   return (
