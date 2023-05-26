@@ -87,7 +87,7 @@ const Menus = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title font-bold">{menu.name}</h2>
-                <p className="text-lg font-bold text-red-700" >Starts ৳ {menu.price}</p>
+                <p className="text-lg font-bold text-red-700" >Starts From ৳ {menu.price}</p>
                 {/* <div className="card-actions justify-center">
             <Link to="/cart">
               <button
@@ -116,7 +116,7 @@ const Menus = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title font-bold">{menu.name}</h2>
-                <p className="text-lg font-bold text-red-700">{menu.id != 7 && "Starts"} ৳ {menu.price}</p>
+                <p className="text-lg font-bold text-red-700">{menu.id != 7 && "Starts From"} ৳ {menu.price}</p>
                 {/* <div className="card-actions justify-center">
             <Link to="/cart">
               <button
