@@ -23,25 +23,25 @@ const Menus = () => {
       "id": 1,
       "img": p1,
       "name": "Chicken Fry",
-      "price": 300
+      "price": 139
     },
     {
       "id": 2,
       "img": p2,
       "name": "Chicken Lollypop",
-      "price": 300
+      "price": 199
     },
     {
       "id": 3,
       "img": p3,
       "name": "Burgers",
-      "price": 300
+      "price": 299
     },
     {
       "id": 4,
       "img": p4,
       "name": "Wings",
-      "price": 300
+      "price": 199
     },
 
 
@@ -52,19 +52,19 @@ const Menus = () => {
       "id": 5,
       "img": p5,
       "name": "Strips",
-      "price": 300
+      "price": 289
     },
     {
       "id": 6,
       "img": p6,
       "name": "Sides",
-      "price": 300
+      "price": 85
     },
     {
       "id": 7,
       "img": p7,
       "name": "Dips",
-      "price": 300
+      "price": 45
     }
 
 
@@ -87,7 +87,7 @@ const Menus = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title font-bold">{menu.name}</h2>
-                <p className="text-lg font-bold text-red-700">৳ {menu.price}</p>
+                <p className="text-lg font-bold text-red-700" >Start from ৳ {menu.price}</p>
                 {/* <div className="card-actions justify-center">
             <Link to="/cart">
               <button
@@ -116,7 +116,7 @@ const Menus = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title font-bold">{menu.name}</h2>
-                <p className="text-lg font-bold text-red-700">৳ {menu.price}</p>
+                <p className="text-lg font-bold text-red-700">{menu.id != 7 && "Start from"} ৳ {menu.price}</p>
                 {/* <div className="card-actions justify-center">
             <Link to="/cart">
               <button
