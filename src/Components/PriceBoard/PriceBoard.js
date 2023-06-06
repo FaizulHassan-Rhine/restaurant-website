@@ -22,7 +22,7 @@ const PriceBoard = () => {
         <div className="md:grid  md:grid-cols-2 lg:grid lg:grid-cols-3  justify-items-center  ">
           <div className="card md:w-96    lg:ml-56 lg:mt-20">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Chicken Fry
               </h2>
               <div className="flex justify-between">
@@ -34,7 +34,7 @@ const PriceBoard = () => {
                     TangyTingle
                   </p>
                   <p className="font-bold text-xl ">
-                    Cheesiliano
+                    Parmaroma
                   </p>
                   <p className="font-bold text-xl ">
                     Kashmiri Spice
@@ -42,16 +42,16 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    139 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    149 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    149 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    149 tk
                   </p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const PriceBoard = () => {
           </div>
           <div className="card md:w-96  lg:ml-36 lg:mt-20">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Chicken Lollypop
               </h2>
               <div className="flex justify-between">
@@ -70,13 +70,19 @@ const PriceBoard = () => {
                   <p className="font-bold text-xl ">
                     TangyTingle
                   </p>
+                  <p className="font-bold text-xl ">
+                    Kashmiri Spice
+                  </p>
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    199 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    239 tk
+                  </p>
+                  <p className="font-bold text-xl ">
+                    239 tk
                   </p>
 
                 </div>
@@ -85,7 +91,7 @@ const PriceBoard = () => {
           </div>
           <div className="card md:w-96    lg:mt-20">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Brugers
               </h2>
               <div className="flex justify-between">
@@ -103,54 +109,15 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    299 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    399 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    399 tk
                   </p>
 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="card md:w-96   lg:ml-56 ">
-            <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
-                Dips
-              </h2>
-              <div className="flex justify-between">
-                <div>
-                  <p className="font-bold text-xl ">
-                    Honey Mustered
-                  </p>
-                  <p className="font-bold text-xl ">
-                    Garlic Mayo
-                  </p>
-                  <p className="font-bold text-xl ">
-                    Oh! You Sweet Dip
-
-                  </p>
-                  <p className="font-bold text-xl ">
-                    Fire on Your Tounge
-                  </p>
-                </div>
-                <div>
-                  <p className="font-bold text-xl ">
-                    300 tk
-                  </p>
-                  <p className="font-bold text-xl ">
-                    300 tk
-                  </p>
-                  <p className="font-bold text-xl ">
-                    300 tk
-                  </p>
-                  <p className="font-bold text-xl ">
-                    300 tk
-                  </p>
                 </div>
               </div>
             </div>
@@ -158,7 +125,7 @@ const PriceBoard = () => {
 
           <div className="card md:w-96   lg:ml-36 ">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Strips
               </h2>
               <div className="flex justify-between">
@@ -170,7 +137,7 @@ const PriceBoard = () => {
                     TangyTingle
                   </p>
                   <p className="font-bold text-xl ">
-                    Cheesiliano
+                    Parmaroma
                   </p>
                   <p className="font-bold text-xl ">
                     Kashmiri Spice
@@ -178,16 +145,16 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    289 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    309 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    309 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    309 tk
                   </p>
                 </div>
               </div>
@@ -195,7 +162,7 @@ const PriceBoard = () => {
           </div>
           <div className="card md:w-96  ">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Sides
               </h2>
               <div className="flex justify-between">
@@ -218,19 +185,19 @@ const PriceBoard = () => {
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    85 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    145 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    129 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    155 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    139 tk
                   </p>
                 </div>
               </div>
@@ -238,7 +205,7 @@ const PriceBoard = () => {
           </div>
           <div className="card md:w-96  lg:-mt-10  lg:ml-56 ">
             <div className="card-body ">
-              <h2 className=" font-extrabold text-white text-xl lg:text-3xl">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
                 Wings
               </h2>
               <div className="flex justify-between">
@@ -246,17 +213,22 @@ const PriceBoard = () => {
                   <p className="font-bold text-xl ">
                     Signature
                   </p>
-
+                  <p className="font-bold text-xl ">
+                    TangyTingle
+                  </p>
                   <p className="font-bold text-xl ">
                     Kashmiri Spice
                   </p>
                 </div>
                 <div>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    199 tk
                   </p>
                   <p className="font-bold text-xl ">
-                    300 tk
+                    239 tk
+                  </p>
+                  <p className="font-bold text-xl ">
+                    239 tk
                   </p>
 
                 </div>
@@ -264,7 +236,40 @@ const PriceBoard = () => {
             </div>
           </div>
 
+          <div className="card md:w-96   lg:ml-56 ">
+            <div className="card-body ">
+              <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
+                Dips
+              </h2>
+              <div className="flex justify-between">
+                <div>
+                  <p className="font-bold text-xl ">
+                    Honey Mustered
+                  </p>
+                  <p className="font-bold text-xl ">
+                    Garlic Mayo
+                  </p>
+                  <p className="font-bold text-xl ">
+                    Spicy Mayo
 
+                  </p>
+
+                </div>
+                <div>
+                  <p className="font-bold text-xl ">
+                    45 tk
+                  </p>
+                  <p className="font-bold text-xl ">
+                    45 tk
+                  </p>
+                  <p className="font-bold text-xl ">
+                    45 tk
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
