@@ -92,7 +92,7 @@ const PriceBoard = () => {
           <div className="card md:w-96    lg:mt-20">
             <div className="card-body ">
               <h2 className=" font-extrabold text-orange-400 text-xl lg:text-3xl">
-                Brugers
+                Burgers
               </h2>
               <div className="flex justify-between">
                 <div>
