@@ -15,6 +15,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Navbar2 from "./Components/Navbar/Navbar2";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Thankyou from "./Components/Thankyou/Thankyou";
+import PurchasePolicy from "./Components/PurchasePolicy/PurchasePolicy";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/purchase-policy" element={<PurchasePolicy />} />
         <Route path="/cookie" element={<CookiePolicy />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />

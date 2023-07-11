@@ -64,6 +64,7 @@ const Footer = () => {
           <span className="text-lg font-bold text-orange-400">Legal</span>
           <Link to="/terms-condition" className="link link-hover">Terms of use</Link>
           <Link to="/privacy-policy" className="link link-hover">Privacy policy</Link>
+          <Link to="/purchase-policy" className="link link-hover">Purchase and Sales Policy</Link>
           <Link to="/cookie" className="link link-hover">Cookie policy</Link>
 
         </div>
