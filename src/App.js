@@ -16,6 +16,7 @@ import Navbar2 from "./Components/Navbar/Navbar2";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Thankyou from "./Components/Thankyou/Thankyou";
 import PurchasePolicy from "./Components/PurchasePolicy/PurchasePolicy";
+import MenuList from "./Components/MenuList/MenuList";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/cookie" element={<CookiePolicy />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/menu-list" element={<MenuList />} />
         <Route path="/thank-you/*" element={<Thankyou />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
