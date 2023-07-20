@@ -8,6 +8,7 @@ import Menus from "../Menus/Menus";
 import Blog from "../Blog/Blog";
 import Welcome from "../Welcome/Welcome";
 import Reviews from "../Reviews/Reviews";
+import MenuList from "../MenuList/MenuList";
 
 const Home = () => {
   return (
@@ -41,7 +42,8 @@ const Home = () => {
       <Welcome></Welcome>
 
       <PriceBoard></PriceBoard>
-      <Menus></Menus>
+      {/* <Menus></Menus> */}
+      <MenuList></MenuList>
       {/* <Reviews></Reviews> */}
       {/* <Blog></Blog> */}
       <Footer></Footer>

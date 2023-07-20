@@ -24,19 +24,22 @@
   
   .product-container {
     width: 90%;
-    margin: auto;
-    top: 55%;
+    /* margin: auto; */
+    /* top: 50%;
+    left: 50%; */
     position: relative;
-    transform: translateY(-50%);
+    /* transform: translate(-50%); */
     background: #3c3c3c;
     padding: 20px;
+    margin: auto;
+    
   }
   .closeBtn {
     position: absolute;
     right: 30px;
-    top: 15%;
-    padding: 14px;
-    background: red;
+    top: 8%;
+    padding: 15px;
+    background: white;
     line-height: 0;
     font-weight: bold;
     border-radius: 5px;

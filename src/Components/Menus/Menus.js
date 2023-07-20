@@ -72,7 +72,7 @@ const Menus = () => {
   ]
 
   return (
-    <div id="menu" className="container lg:pt-5 mx-auto py-24">
+    <div className="container lg:pt-5 mx-auto py-24">
       <h2 className="text-center font-bold text-3xl my-16 text-orange-400">
         {" "}
         Our Best Seller
