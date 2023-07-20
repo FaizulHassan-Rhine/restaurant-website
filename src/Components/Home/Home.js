@@ -9,6 +9,7 @@ import Blog from "../Blog/Blog";
 import Welcome from "../Welcome/Welcome";
 import Reviews from "../Reviews/Reviews";
 import MenuList from "../MenuList/MenuList";
+import OurFlavours from "../OurFlavours/OurFlavours";
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
       <Welcome></Welcome>
 
       <PriceBoard></PriceBoard>
+      <OurFlavours></OurFlavours>
       {/* <Menus></Menus> */}
       <MenuList></MenuList>
       {/* <Reviews></Reviews> */}
