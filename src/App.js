@@ -38,7 +38,7 @@ function App() {
         <Route path="/cookie" element={<CookiePolicy />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/menu-list" element={<MenuList />} />
+        {/* <Route path="/menu-list" element={<MenuList />} /> */}
         <Route path="/thank-you/*" element={<Thankyou />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
