@@ -31,7 +31,7 @@ const Welcome = () => {
               <img className="h-36 w-36 ml-2" src={chef} alt="" />
             </figure>
             <div className="card-body items-center  ">
-              <h2 className="card-title">Experienced Cheif</h2>
+              <h2 className="card-title">Experienced Chef</h2>
               <p className="">
                 If you're a happy person around food, we have the right chef for
                 you.

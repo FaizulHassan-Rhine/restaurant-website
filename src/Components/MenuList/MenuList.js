@@ -37,13 +37,17 @@ const MenuList = () => {
     const [getImage, setImage] = useState();
     const [getClose, setClose] = useState("hidden");
     const [getDetails, setDetails] = useState();
+    const [getDetails2, setDetails2] = useState();
+    const [getDetails3, setDetails3] = useState();
     const [getItemName, setItemName] = useState();
     const [getItemPrice, setItemPrice] = useState();
 
-    const HandleImage = (img, details, itemName, itemPrice) => {
+    const HandleImage = (img, details, itemName, itemPrice, details2, details3) => {
         setImage(img);
         setClose("block");
         setDetails(details);
+        setDetails2(details2);
+        setDetails3(details3);
         setItemName(itemName);
         setItemPrice(itemPrice);
     };
@@ -74,7 +78,9 @@ const MenuList = () => {
             "image_url": p2,
             "name": "Dips",
             "price": 45,
-            "des": ""
+            "des": "Spicy Mayo - Welcome to the fiery delight of our Spicy Mayo Dip - a harmonious fusion of creamy richness and spicy vigor that will ignite your senses and leave you yearning for more.",
+            "des2": "Garlic Mayo - Introducing our luscious Garlic Mayo Dip, a delightfully smooth and creamy concoction crafted to tantalize your taste buds. this exquisite dip is the perfect marriage of premium mayonnaise and aromatic garlic.",
+            "des3": "Honey Mustard - Presenting our sumptuous Honey Mustard Dip - a velvety, golden treat that's set to elevate your snacking experience. This culinary delight is a carefully crafted blend of sweet honey, tangy mustard, and a sprinkle of hand-selected spices, "
         },
 
         {
@@ -273,11 +279,11 @@ const MenuList = () => {
             </h2>
             <div className={`grid md:grid md:grid-cols-2 lg:grid-cols-4 mx-5 mb-12 justify-items-center gap-y-12 md:gap-y-10 `}>
                 {data.map((data, index) => (
-                    <div onClick={() => HandleImage(data.image_url, data.des, data.name, data.price)}>
+                    <div onClick={() => HandleImage(data.image_url, data.des, data.name, data.price, data.des2, data.des3)}>
                         {console.log(data)}
                         <div className="card card-compact w-64 md:w-56 lg:w-52 xl:w-64 hover:shadow-xl transform transition duration-500 hover:scale-105 bg-base-100 shadow-xl cursor-pointer">
                             <figure>
-                                <img className="h-44 w-full p-1   rounded-lg" src={data.image_url} alt="" />
+                                <img className="h-52 w-60 p-1   rounded-lg" src={data.image_url} alt="" />
                             </figure>
                             <div className="card-body">
                                 <h2 className=" text-base font-bold">{data.name}</h2>
@@ -317,6 +323,12 @@ const MenuList = () => {
                         </p>
                         <p className="text-white w-full self-center text-justify text-xs md:text-sm  xl:text-base  mb-4">
                             {getDetails}
+                        </p>
+                        <p className="text-white w-full self-center text-justify text-xs md:text-sm  xl:text-base  mb-4">
+                            {getDetails2}
+                        </p>
+                        <p className="text-white w-full self-center text-justify text-xs md:text-sm  xl:text-base  mb-4">
+                            {getDetails3}
                         </p>
                         <p className="text-white absolute bottom-0 md:bottom-4 font-semibold md:text-xl xl:text-3xl w-full self-center text-justify  mb-2">
                             {getItemPrice} ৳
