@@ -92,7 +92,7 @@ function PrivacyPolicyBangla(props) {
               <br />
 
               <p>
-              এই গোপনীয়তা নীতি সম্পর্কে আপনার কোন প্রশ্ন বা উদ্বেগ থাকলে, অনুগ্রহ করে eat@fryfrenzy.com এ আমাদের সাথে যোগাযোগ করুন
+              এই গোপনীয়তা নীতি সম্পর্কে আপনার কোন প্রশ্ন বা উদ্বেগ থাকলে, অনুগ্রহ করে <span className="text-orange-500">eat@fryfrenzy.com</span> এ আমাদের সাথে যোগাযোগ করুন
               </p>
             </div>
           </div>

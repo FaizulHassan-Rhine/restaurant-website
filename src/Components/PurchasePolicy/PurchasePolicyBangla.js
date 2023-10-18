@@ -23,7 +23,7 @@ function PurchasePolicyBangla(props) {
                                 ১. অর্ডার প্রক্রিয়া
                             </b>
                             <p>
-                                <span className="font-bold">১.১</span> আমাদের হটলাইন নম্বর, Facebook, Instagram এবং WhatsApp এর মাধ্যমে অর্ডার করা যেতে পারে। আপনার পছন্দসই পণ্য নির্বাচন করার পরে, আপনি চেকআউট করতে যেতে পারেন এবং আপনার অর্ডার প্রক্রিয়াকরণ এবং বিতরণের জন্য প্রয়োজনীয় তথ্য সরবরাহ করতে পারেন।
+                                <span className="font-bold"></span> আমাদের হটলাইন নম্বর, Facebook, Instagram এবং WhatsApp এর মাধ্যমে অর্ডার করা যেতে পারে। আপনার পছন্দসই পণ্য নির্বাচন করার পরে, আপনি চেকআউট করতে যেতে পারেন এবং আপনার অর্ডার প্রক্রিয়াকরণ এবং বিতরণের জন্য প্রয়োজনীয় তথ্য সরবরাহ করতে পারেন।
                             </p>
 
                         </div>
@@ -58,7 +58,7 @@ function PurchasePolicyBangla(props) {
                             <br />
 
                             <p>
-                                <span className="font-bold"></span>অর্ডার একবার স্থাপন করা এবং নিশ্চিত করা বাতিল বা পরিবর্তন করা যাবে না। ব্যতিক্রমী পরিস্থিতিতে, যত তাড়াতাড়ি সম্ভব eat@fryfrenzy.com এ আমাদের সাথে যোগাযোগ করুন।
+                                <span className="font-bold"></span>অর্ডার একবার স্থাপন করা এবং নিশ্চিত করা বাতিল বা পরিবর্তন করা যাবে না। ব্যতিক্রমী পরিস্থিতিতে, যত তাড়াতাড়ি সম্ভব <span className="text-orange-500">eat@fryfrenzy.com</span> এ আমাদের সাথে যোগাযোগ করুন।
                             </p>
                         </div>
 
@@ -103,7 +103,7 @@ function PurchasePolicyBangla(props) {
                             <br />
 
                             <p>
-                                <span className="font-bold"></span> এই ক্রয় এবং বিক্রয় নীতি সম্পর্কে আপনার কোন প্রশ্ন বা উদ্বেগ থাকলে, অনুগ্রহ করে eat@fryfrenzy.com এ আমাদের সাথে যোগাযোগ করুন
+                                <span className="font-bold"></span> এই ক্রয় এবং বিক্রয় নীতি সম্পর্কে আপনার কোন প্রশ্ন বা উদ্বেগ থাকলে, অনুগ্রহ করে <span className="text-orange-500">eat@fryfrenzy.com</span> এ আমাদের সাথে যোগাযোগ করুন
                             </p>
                         </div>
                         <div className="mt-5">
